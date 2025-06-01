@@ -1,0 +1,528 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_36DA5E6DF57F2BBA"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_color.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                int inputs:encoding = 0 (
+                    customData = {
+                        int default = 0
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map Encoding"
+                    doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                    hidden = false
+                    renderType = "normalmap_encoding"
+                    sdrMetadata = {
+                        string __SDR__enum_value = "octahedral"
+                        string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                    }
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_rough.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_48A8EB15DB1D9698"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_059a/decalgraffiti059a_color.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_rough.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_139402803C684636"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_062a/decalgraffiti062a_color_new.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_rough.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_F5A6B3E168CD814D"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_ManhackCut_Set/manhackcut_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:displace_in = 0.01 (
+                    customData = {
+                        float default = 0.05
+                        dictionary range = {
+                            float max = 0.2
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Inwards Displacement"
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused."""
+                    hidden = false
+                )
+                asset inputs:height_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_ManhackCut_Set/manhackcut_height.h.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Height Map"
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_ManhackCut_Set/manhackcut_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_6F87BCEDE59691D6"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_ManhackCut_Set/manhackcut3_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:displace_in = 0.01 (
+                    customData = {
+                        float default = 0.05
+                        dictionary range = {
+                            float max = 0.2
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Inwards Displacement"
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused."""
+                    hidden = false
+                )
+                asset inputs:height_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_ManhackCut_Set/manhackcut3_height.h.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Height Map"
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_ManhackCut_Set/manhackcut3_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+    }
+
+    over "meshes"
+    {
+        over "mesh_64E0D43DA38B486C" (
+            references = None
+        )
+        {
+            def Xform "ref_516af45678fa4434830c867c72e36745" (
+                prepend references = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Plaster_Floor_Pile_Set/SM_Prop_Debris_Plaster_Floor_Pile_01a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        float3 xformOp:rotateXYZ = (0, 0, 0)
+                        float3 xformOp:scale = (0.395, 0.395, 0.395)
+                        double3 xformOp:translate = (0, 0, 0)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                        over "Looks"
+                        {
+                            over "Rock"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Albedo_Diffuse.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_OTH_Normal.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Rough.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Plaster"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    float inputs:displace_in = 0.01 (
+                                        customData = {
+                                            float default = 0.05
+                                            dictionary range = {
+                                                float max = 0.2
+                                                float min = 0
+                                            }
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Inwards Displacement"
+                                        doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused."""
+                                        hidden = false
+                                    )
+                                    asset inputs:height_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_height.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_7D202E09EAF17FC8" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_1DB7912A2A1086C3" (
+            references = None
+        )
+        {
+            def Xform "ref_0c0bbe95167541dbb8d3451116a32db6" (
+                prepend references = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Plaster_Floor_Pile_Set/SM_Prop_Debris_Plaster_Floor_Pile_02a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (0.395, 0.395, 0.395)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Plaster"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    float inputs:displace_in = 0.01 (
+                                        customData = {
+                                            float default = 0.05
+                                            dictionary range = {
+                                                float max = 0.2
+                                                float min = 0
+                                            }
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Inwards Displacement"
+                                        doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused."""
+                                        hidden = false
+                                    )
+                                    asset inputs:height_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_height.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/materials/plaster/M_Plaster_Ceiling_008a/m_plasterceiling008a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Rock"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Albedo_Diffuse.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_OTH_Normal.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Rough.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_2CBC26DE0B03D0C8" (
+            references = None
+        )
+        {
+        }
+    }
+}
+

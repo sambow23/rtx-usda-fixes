@@ -1,0 +1,150 @@
+#usda 1.0
+(
+    customLayerData = {
+        string lightspeed_game_name = "HALF-LIFE 2 - Direct3D 9"
+        string lightspeed_layer_type = "replacement"
+        dictionary lightspeed_mod_dependencies = {
+        }
+        string lightspeed_mod_name = "hl2rtx_mod"
+        string lightspeed_mod_version = "1.0.0"
+    }
+    subLayers = [
+        @./hl2rtx_skybox_textures.usda@,
+        @./hl2rtx_detail_layers.usda@,
+        @./hl2rtx_ch1_pointinsertion.usda@,
+        @./hl2rtx_ch2_redletterday.usda@,
+        @./hl2rtx_ch3_routekanal.usda@,
+        @./hl2rtx_ch4_waterhazard.usda@,
+        @./hl2rtx_ch5_blackmesaeast.usda@,
+        @./hl2rtx_ch6_ravenholm.usda@,
+        @./hl2rtx_ch7_highway17.usda@,
+        @./hl2rtx_ch8_sandtraps.usda@,
+        @./hl2rtx_ch9_novaprospekt.usda@,
+        @./hl2rtx_ch9a_entanglement.usda@,
+        @./hl2rtx_ch10_anticitizenone.usda@,
+        @./hl2rtx_ch11_followfreeman.usda@,
+        @./hl2rtx_ch12_ourbenefactors.usda@,
+        @./hl2rtx_ch13_darkenergy.usda@
+    ]
+    timeCodesPerSecond = 24
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    over "Looks"
+    {
+
+
+
+
+    }
+
+    over "lights"
+    {
+        over "light_B6489C688B7541B7"
+        {
+            float intensity = 100
+        }
+
+        over "light_1BCE00BA017E5582"
+        {
+            color3f color = (1, 0.9863936, 0.71428573)
+            float intensity = 10
+            float3 xformOp:rotateZYX = (-146.59962, 28.832169, 81.18)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6473.03166043621, -1616.661825960998, 12.42900878875446)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_8DFC78722768A944"
+        {
+            color3f color = (1, 0.9882353, 0.7137255)
+            float intensity = 10
+            float3 xformOp:rotateZYX = (-146.59962, -28.832174, -81.18002)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6495.90279297387, -1616.9547828505042, 12.116847109001412)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_416F88344C07A43F"
+        {
+            color3f color = (1, 0.9999988, 0.99999)
+            float intensity = 100
+        }
+
+        over "light_E59C4E9D02C00E91"
+        {
+            color3f color = (1, 0.99999857, 0.99999)
+            float intensity = 100
+        }
+
+        over "light_D2ED7048436183D1"
+        {
+            float intensity = 0
+            float radius = 3
+            float3 xformOp:rotateZYX = (90, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6483.947572903516, -1618.8854078814302, 87.49873926798176)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_99BA08FB2089CAAA"
+        {
+            float intensity = 100
+        }
+
+        over "light_3B2334C0A6CD6C99"
+        {
+            float3 xformOp:rotateZYX = (0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-7046.450109286323, -1472, 122.99765386304452)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_50124A4A48415AF1"
+        {
+            color3f color = (0.2696889, 0.6209652, 0.8841699)
+            float intensity = 3
+            float3 xformOp:rotateZYX = (0, 270, 0)
+            float3 xformOp:scale = (10, 10, 10)
+            double3 xformOp:translate = (-6376.080315517671, -1222.8999727395096, 63.44343418838487)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+    }
+
+    over "Camera"
+    {
+        custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -384.45152716975457)
+        float3 xformOp:rotateZYX = (49.778156, 26.396399, 20.6057)
+        float3 xformOp:scale = (0.99999994, 1, 0.99999994)
+        double3 xformOp:translate = (365.92600363568647, -379.61800775769507, -51.19772115916444)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+    }
+}
+

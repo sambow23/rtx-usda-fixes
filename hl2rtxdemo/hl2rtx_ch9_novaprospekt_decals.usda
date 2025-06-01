@@ -1,0 +1,525 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_D82C826C6E4236C0"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Metal_Grate_017a/decalmetalgrate017a_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Metal_Grate_017a/decalmetalgrate017a_metallic.m.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Metal_Grate_017a/decalmetalgrate017a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Metal_Grate_017a/decalmetalgrate017a_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_43927CE4A953F986"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01a_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01a_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_C6AE0D0E178E7C3D"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01b_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01b_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01b_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_BAD13287316DE9FE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01c_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01c_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison01c_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_DD35165CBADF4662"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02a_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02a_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_A70E8A61AC3C0FF6"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02b_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02b_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02b_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_2CD6B00AAAD61926"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02c_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02c_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison02c_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_D5FFCB6BB4A261EB"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03a_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03a_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_5B75D9CA50BB1589"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03b_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03b_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03b_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_EAD39A015D0191B7"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03c_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03c_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison03c_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_E469199C6336713E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison04a_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison04a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison04a_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_DBD17AA585186C8F"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison04b_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison04b_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/materials/decals/M_Decal_Prison_CellBlock/decal_prison04b_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+    }
+}
+

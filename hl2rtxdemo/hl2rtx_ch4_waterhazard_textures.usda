@@ -1,0 +1,103 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+
+
+        over "mat_282C037714127AED"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch4_waterhazard/materials/mud/M_Mud_Floor_004bs/M_Mud_Floor_004bs_albedo.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch4_waterhazard/materials/mud/M_Mud_Floor_004bs/M_Mud_Floor_004bs_normal_OTH.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/materials/mud/M_Mud_Floor_004bs/M_Mud_Floor_004bs_roughness.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_4DF396D47A0A5851"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch4_waterhazard/materials/decals/M_Decal_Metal_Grate001a/T_Decal_Metal_Grate001a_albedo.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./assets/ch4_waterhazard/materials/decals/M_Decal_Metal_Grate001a/T_Decal_Metal_Grate001a_metallic.m.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch4_waterhazard/materials/decals/M_Decal_Metal_Grate001a/T_Decal_Metal_Grate001a_normal_OTH.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/materials/decals/M_Decal_Metal_Grate001a/T_Decal_Metal_Grate001a_rough.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+
+
+
+    }
+}
+

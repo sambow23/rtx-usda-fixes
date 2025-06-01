@@ -1,0 +1,1363 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_017AB46BB43F60BF"
+        {
+            def Xform "ref_4e39c1a6abda4e45a1acb11aa962860d" (
+                prepend references = @./assets/ch9a_entanglement/models/SK_Prop_Combine_Door/SK_Prop_Combine_Door.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    float3 xformOp:translate:pivot = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+                    over "World"
+                    {
+                        over "skel_017AB46BB43F60BF"
+                        {
+                            over "skel"
+                            {
+                                over Xform "root0"
+                                {
+                                    over "BIG_002"
+                                    {
+                                        uniform token[] skel:joints = None
+                                        rel skel:skeleton = </RootNode/meshes/mesh_017AB46BB43F60BF/skel>
+                                    }
+                                }
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "combine_door01"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9a_entanglement/models/SK_Prop_Combine_Door/textures/main_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:emissive_mask_texture = @./assets/ch9a_entanglement/models/SK_Prop_Combine_Door/textures/main_on_emissive.e.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Emissive Mask Map"
+                                        doc = "The texture masking the emissive color"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:enable_emission = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Enable Emission"
+                                        doc = "Enables the emission of light from the material"
+                                        hidden = false
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch9a_entanglement/models/SK_Prop_Combine_Door/textures/main_metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9a_entanglement/models/SK_Prop_Combine_Door/textures/main_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9a_entanglement/models/SK_Prop_Combine_Door/textures/main_rough.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_4593F677096FAA01" (
+            references = None
+        )
+        {
+            def Xform "ref_0fddf2b6cc5d46b8a47e50c2ea5f8854" (
+                prepend references = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/SM_Prop_Combine_Emitter.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (0.01, 0.01, 0.01)
+                    double3 xformOp:translate = (0, 0, 0)
+                    float3 xformOp:translate:pivot = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "combine_emitter"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:emissive_mask_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_emissive.e.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Emissive Mask Map"
+                                        doc = "The texture masking the emissive color"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:enable_emission = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Enable Emission"
+                                        doc = "Enables the emission of light from the material"
+                                        hidden = false
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_rough.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_41FBFB959C6AB99A" (
+            references = None
+        )
+        {
+            def Xform "ref_697c6de0cd8741b9a67a2387c0204786" (
+                prepend references = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/SK_NPC_Combine_Turret_Floor.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    float3 xformOp:translate:pivot = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+                    over "World"
+                    {
+                        over "skel_41FBFB959C6AB99A"
+                        {
+                            over "skel"
+                            {
+                                over Xform "root0"
+                                {
+                                    over "combine_turret_002"
+                                    {
+                                        uniform token[] skel:joints = None
+                                        rel skel:skeleton = </RootNode/meshes/mesh_41FBFB959C6AB99A/skel>
+                                    }
+                                }
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "combine_turret"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:emissive_mask_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_emissive.e.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Emissive Mask Map"
+                                        doc = "The texture masking the emissive color"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:enable_emission = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Enable Emission"
+                                        doc = "Enables the emission of light from the material"
+                                        hidden = false
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_rough.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "combine_turret_base"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_base_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:emissive_mask_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_base_emissive.e.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Emissive Mask Map"
+                                        doc = "The texture masking the emissive color"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:enable_emission = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Enable Emission"
+                                        doc = "Enables the emission of light from the material"
+                                        hidden = false
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_base_metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_base_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9a_entanglement/models/SK_NPC_Combine_Turret_Floor/textures/combine_turret_base_rough.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_73A3C037ECD08609" (
+            references = None
+        )
+        {
+            def Xform "ref_8ae2945863064723909b78dd1d99ac9b" (
+                prepend references = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Camera001/SM_Prop_Combine_Camera001.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (0.01, 0.01, 0.01)
+                    double3 xformOp:translate = (0, 0, 0)
+                    float3 xformOp:translate:pivot = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "combine_camera"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:emissive_mask_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Camera001/textures/combine_camera_emissive.e.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Emissive Mask Map"
+                                        doc = "The texture masking the emissive color"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:enable_emission = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Enable Emission"
+                                        doc = "Enables the emission of light from the material"
+                                        hidden = false
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Camera001/textures/combine_camera_metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Camera001/textures/combine_camera_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Camera001/textures/combine_camera_rough.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_34759D287B8D68E9"
+        {
+            over "ref_59cf8ef25ddc4bbab0ae8396cd9f89e0"
+            {
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        float3 xformOp:rotateXYZ = (90, 0, 0)
+                        float3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (0, 0, 0)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                        over "concrete_spawnhole001"
+                        {
+                            float3 xformOp:rotateXYZ = (0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "concrete_spawnhole001_damage_edge"
+                        {
+                            float3 xformOp:rotateXYZ = (0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "concrete"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Albedo_Diffuse.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_OTH_Normal.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Rough.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "bake_damage"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Broken_Floor_Set/textures/C_spawnholeplug_Albedo.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Broken_Floor_Set/textures/C_spawnholeplug_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Broken_Floor_Set/textures/C_spawnholeplug_Rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_6B65E4802D919493"
+        {
+            over "ref_a8a59786491a4f9a9e3c5249a400a306"
+            {
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "concrete_spawnplug"
+                        {
+                            float3 xformOp:rotateXYZ = (90, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "bake_damage"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Broken_Floor_Set/textures/C_spawnholeplug_Albedo.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Broken_Floor_Set/textures/C_spawnholeplug_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Broken_Floor_Set/textures/C_spawnholeplug_Rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_DFFD613E23C3C0ED" (
+            references = None
+        )
+        {
+            def Xform "ref_debb1d02013c43abb8d5e4921f89ea9a" (
+                prepend references = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/SM_Prop_Debris_Tile_Walkway Pile.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Debris_Tile_Walkway_Pile_damage"
+                        {
+                            float3 xformOp:rotateXYZ = (90, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "SM_Prop_Debris_Tile_Walkway_Pile"
+                        {
+                            float3 xformOp:rotateXYZ = (90, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "walkway_damage_bake"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake_Albedo.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake__OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake__Rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Concrete_Floor_013a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Albedo_Diffuse.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_OTH_Normal.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Rough.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Tilefloor001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    float inputs:displace_in = 0.002 (
+                                        customData = {
+                                            float default = 1
+                                            dictionary range = {
+                                                float max = 255
+                                                float min = 0
+                                            }
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Inwards Displacement"
+                                        doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused.
+"""
+                                        hidden = false
+                                    )
+                                    asset inputs:height_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_height.h.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
+This parameter is unused.
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_9486AB8BFD919FF4" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_0E36B768793B2F78" (
+            references = None
+        )
+        {
+            def Xform "ref_c1ae256067df449c9368fd46d4d32d47" (
+                prepend references = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/SM_Prop_Debris_Tile_Walkway_01a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Debris_Tile_Walkway_01a"
+                        {
+                            float3 xformOp:rotateXYZ = (90, -0.0000034150942, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "SM_Prop_Debris_Tile_Walkway_01a_damage"
+                        {
+                            float3 xformOp:rotateXYZ = (90, -0.0000034150942, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "walkway_damage_bake"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake_Albedo.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake__OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake__Rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Concrete_Floor_013a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Albedo_Diffuse.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_OTH_Normal.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Rough.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Tilefloor001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    float inputs:displace_in = 0.002 (
+                                        customData = {
+                                            float default = 1
+                                            dictionary range = {
+                                                float max = 255
+                                                float min = 0
+                                            }
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Inwards Displacement"
+                                        doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused.
+"""
+                                        hidden = false
+                                    )
+                                    asset inputs:height_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_height.h.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
+This parameter is unused.
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_9EEC034CF9B2486D" (
+            references = None
+        )
+        {
+            def Xform "ref_72665b46a3a14d4393f334d884352997" (
+                prepend references = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/SM_Prop_Debris_Tile_Walkway_01b.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Debris_Tile_Walkway_01b_damage"
+                        {
+                            float3 xformOp:rotateXYZ = (90, -0.0000034150942, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "SM_Prop_Debris_Tile_Walkway_01b"
+                        {
+                            float3 xformOp:rotateXYZ = (90, -0.0000034150942, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "walkway_damage_bake"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake_Albedo.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake__OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/models/SM_Prop_Debris_Tile_Walkway_Set/textures/walkway_damage_bake__Rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Tilefloor001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    float inputs:displace_in = 0.002 (
+                                        customData = {
+                                            float default = 1
+                                            dictionary range = {
+                                                float max = 255
+                                                float min = 0
+                                            }
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Inwards Displacement"
+                                        doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused.
+"""
+                                        hidden = false
+                                    )
+                                    asset inputs:height_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_height.h.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
+This parameter is unused.
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/materials/tile/M_Tile_Floor_001a/tilefloor001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Concrete_Floor_013a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Albedo_Diffuse.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_OTH_Normal.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch2_redletterday/materials/concrete/M_Concrete_Floor_013a/textures/T_Concrete_Floor_013a_Rough.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_83287A2E6C94DC4A" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_F1793F2EA72322E5" (
+            references = None
+        )
+        {
+        }
+    }
+
+    over "Looks"
+    {
+
+    }
+}
+

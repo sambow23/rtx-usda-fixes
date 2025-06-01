@@ -1,0 +1,23 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+
+
+
+
+
+
+
+    }
+
+    over "meshes"
+    {
+    }
+}
+

@@ -1,0 +1,71 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_E022678B7F138345"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch5_blackmesaeast/materials/decals/M_Decal_MetalHatch002a/M_Decal_MetalHatch002a_basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:height_texture = @./assets/ch5_blackmesaeast/materials/decals/M_Decal_MetalHatch002a/M_Decal_MetalHatch002a_height.h.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Height Map"
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:metallic_texture = @./assets/ch5_blackmesaeast/materials/decals/M_Decal_MetalHatch002a/M_Decal_MetalHatch002a_metallic.m.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Metallic Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch5_blackmesaeast/materials/decals/M_Decal_MetalHatch002a/M_Decal_MetalHatch002a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch5_blackmesaeast/materials/decals/M_Decal_MetalHatch002a/M_Decal_MetalHatch002a_roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+    }
+}
+

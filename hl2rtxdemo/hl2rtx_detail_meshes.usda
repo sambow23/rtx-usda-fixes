@@ -1,0 +1,836 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_4795EE38635D55A0" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueTall_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueTall.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_BAB3F812AC738560" (
+            references = None
+        )
+        {
+            def Xform "ref_ba1cc2b025df4df5b76b57bdd453c2d2" (
+                prepend references = @./assets/details/SM_Detail_Grass/Fescue.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_D97FF2E02AF1C789" (
+            references = None
+        )
+        {
+            def Xform "ref_ffadefaf242849ee9eb38466e493ed1b" (
+                prepend references = @./assets/details/SM_Detail_Grass/FluffyFescueMedium.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_22AF222D93633C2C" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueDryTall_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueDryTall.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_38FD7DF98B57C224" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueTall_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueTall.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_883271D4450F816F" (
+            references = None
+        )
+        {
+            def Xform "ref_c29a8da0ac3641e08cf1116ea3fc60bc" (
+                prepend references = @./assets/details/SM_Detail_Grass/DeadBush.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "DeadBush"
+                {
+                    float3 xformOp:scale = (1.3, 1.3, 1.3)
+                }
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_BE06F7F4C7D8B14F" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "RedGrassTall_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/RedGrassTall.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_B3E2379DA130F335" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueTall_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueTall.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_E2B1828FDA492C0C" (
+            references = None
+        )
+        {
+            def Xform "ref_b3340d0ba55b4814857e1ac4815da40e" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueWithFlowers.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_E6CEB9E54BBAA54B" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueMedium_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueMedium.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_505AC19BB2CA5E89" (
+            references = None
+        )
+        {
+            def Xform "ref_b9894ac5237048f4b6c718b4e78e5f06" (
+                prepend references = @./assets/details/SM_Detail_Grass/FluffyFescueDry.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_101438BC634596C4" (
+            references = None
+        )
+        {
+            def Xform "ref_884c0dda6350441c96932166182272f0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueDry.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_4822695596FC3E49" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueDryMedium_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueDryMedium.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_9A85250CA91CAA6D" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueMedium_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueMedium.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_0B95939E3916DE4C" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "DeadBush_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/DeadBush.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_ECFB60E569CE165A" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            over "ref_0e6dfd7863bf4911aa7a1001b3fae3c3" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "RedGrass_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/RedGrass.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_33ECD5D62DF0440B" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueMedium_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueMedium.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_1CD95B963F8898CB" (
+            references = None
+        )
+        {
+            def Xform "ref_268e5f931dbb409eb9a08b05db8ae442" (
+                prepend references = @./assets/details/SM_Detail_Grass/NettleTall.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_9C1CEFF402D09863" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueShort_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueShort.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_8D4001445315A1D3" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "NettleMedium_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/NettleMedium.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_0A1573FF30143C0E" (
+            references = None
+        )
+        {
+            def Xform "ref_8defc4145bec48b0a4b07bcd0537f1d9" (
+                prepend references = @./assets/details/SM_Detail_Grass/NettleMedium.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_2885E3C72E050961" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueDryShort_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueDryShort.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_5AFD0774367BCE1E" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueShort_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueShort.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_EB036C56DA74D867" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "DeadBush_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/DeadBush.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_C37559297FF54682" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "RedGrassShort_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/RedGrassShort.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_A6BCFB3F7EE66945" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueShort_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueShort.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_306741CD6118C66D" (
+            references = None
+        )
+        {
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "FescueWithFlowers_0" (
+                prepend references = @./assets/details/SM_Detail_Grass/FescueWithFlowers.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_155CC4310305355A" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_A590798CE8956BF4" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_6139F10CF8138595" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_9DDC980E4CE002C1" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_D67516E63050819D" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_F67E942DA25A361E" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_A269DBD3B23BB5C5" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_0A758819C209C826" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_D8B14DF3FB8E96EC" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_42BBD335BFADEF0E" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_41A8CB5D12056560" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_4DF1CE27D72AB424" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_CAD2A3D8334B0EC7" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_C798E1CB701D21E0" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_0BE19BBA2E3230CD" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_CBB8AAC08628878E" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_B111AECF91327F99" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_EB498DF01C2CCA3C" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_B1A16CBBE5A5C02E" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_35FE7CD9A8D70E68" (
+            references = None
+        )
+        {
+            
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+    }
+}

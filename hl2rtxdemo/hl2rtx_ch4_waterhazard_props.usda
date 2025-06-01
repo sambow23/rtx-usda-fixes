@@ -1,0 +1,3028 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_7B5E96193FE3CE3F" (
+            references = None
+        )
+        {
+            def Xform "ref_e78e2cd7ee7642c4a9ebf3fa42cebf7c" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Pipes_Pipeset032d_Set/SM_Prop_Pipes_Pipeset032d_128_001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "World"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+
+                    over "SM_Fixture_SewerPipe_C01_01"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+                }
+
+                over "Looks"
+                {
+                    over "M_Fixture_SewerPipe_B01"
+                    {
+                        over "Shader"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_3E4F33D48ECA46B7" (
+            references = None
+        )
+        {
+            def Xform "ref_ff3e6cee4e5441e7af96251e66448ad1" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Pipes_Pipeset032d_Set/SM_Prop_Pipes_Pipeset032d_256_001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "World"
+                {
+                    over "SM_Fixture_SewerPipe_A"
+                    {
+                        float3 xformOp:rotateXYZ = (0, -0, 0)
+                        float3 xformOp:scale = (1, 1, 1)
+                        double3 xformOp:translate = (1.4551915228366852e-11, -84.34446810030974, 0.0000036776181673303654)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                    }
+                }
+
+                over "Looks"
+                {
+                    over "M_Fixture_SewerPipe_A"
+                    {
+                        over "Shader"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_EE3A6CBEC006A180" (
+            references = None
+        )
+        {
+            def Xform "ref_64312d4a508845bca316544cf3f4edb9" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Pipes_Pipeset032d_Set/SM_Prop_Pipes_Pipeset032d_512_001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "World"
+                {
+                    over "M_Fixture_SewerPipe_B_1"
+                    {
+                        float3 xformOp:rotateXYZ = (0, -0, 0)
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+
+                    over "M_Fixture_SewerPipe_B_2"
+                    {
+                        float3 xformOp:rotateXYZ = (0, -0, 0)
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+                }
+
+                over "Looks"
+                {
+                    over "M_Fixture_SewerPipe_B_1"
+                    {
+                        over "Shader"
+                        {
+                        }
+                    }
+
+                    over "M_Fixture_SewerPipe_B_2"
+                    {
+                        over "Shader"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_60F002217C028B04" (
+            references = None
+        )
+        {
+            def Xform "ref_bc4852c51e6741cfb9fcef1197462d55" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Pipes_Pipeset032d_Set/SM_Prop_Pipes_Pipeset032d_Bend256u_001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "World"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+
+                    over "M_Fixture_SewerPipe_B01_2"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+
+                    over "M_Fixture_SewerPipe_B02_2"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+
+                    over "M_Fixture_SewerPipe_A01_2"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+                }
+            }
+        }
+
+        over "mesh_53D298E07B973C23" (
+            references = None
+        )
+        {
+            def Xform "ref_8a277adee9494b908f3689fc2804a5e0" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Pipes_Pipeset032d_Set/SM_Prop_Pipes_Pipeset032d_Bend256d_001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "World"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+
+                    over "SM_Fixture_SewerPipe_D01_01"
+                    {
+                        float3 xformOp:rotateXYZ = (0, -0, 0)
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+
+                    over "SM_Fixture_SewerPipe_D01_01_001"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+
+                    over "SM_Fixture_SewerPipe_D01_01_002"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+                }
+            }
+        }
+
+        over "mesh_478C0C432C59BAF1" (
+            references = None
+        )
+        {
+            def Xform "ref_d549f6a1af7544c4a2850dc21b056aba" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Pipes_Pipeset032d_Set/SM_Prop_Pipes_Pipeset032d_Corner128d_001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "SM_Fixture_SewerPipe_Elbow_A02"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                }
+
+                over "M_Fixture_SewerPipe_Elbow_A1_2"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                    float3 xformOp:scale = (100, 100, 100)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                over "M_Fixture_SewerPipe_Elbow_B2_2"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                    float3 xformOp:scale = (100, 100, 100)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "mesh_1AD2B816B778D834" (
+            references = None
+        )
+        {
+            def Xform "ref_4034cb4d51f147e4b327a13b40147cc1" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Pipes_Pipeset032d_Set/SM_Prop_Pipes_Pipeset032d_Corner128r_001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "root"
+                {
+                    float3 xformOp:rotateXYZ = (90, 180, 0)
+                    float3 xformOp:scale = (100, 100, 100)
+                    double3 xformOp:translate = (5.404599505709484e-7, -5.404324383562198e-7, 5.739732485898038)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "M_Fixture_SewerPipe_Elbow_B2_2"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+
+                    over "M_Fixture_SewerPipe_Elbow_A1_2"
+                    {
+                        float3 xformOp:scale = (1, 1, 1)
+                    }
+                }
+
+                over "Looks"
+                {
+                    over "M_Fixture_SewerPipe_Elbow_B2_2_003"
+                    {
+                        over "Shader"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_AAFA94D6C0E17A36" (
+            references = None
+        )
+        {
+            def Xform "ref_79dd8463107a4587a94fa009b6697f74" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/SM_Prop_Vehicle_Truck003a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "glass"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "glass_red"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "glass_yellow"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "truck003a_wheels"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "truck003a_door"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "truck003a_crane"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "truck003a_interior"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "truck003a_body"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "truck003a_steeingwheel"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "Looks"
+                {
+                    over "truck003a_steeingwheel"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_steeingwheel_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_steeingwheel_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_steeingwheel_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_steeingwheel_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "truck003a_wheels"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_wheels_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_wheels_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_wheels_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_wheels_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "truck003a_door"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_door_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_door_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_door_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_door_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "truck003a_crane"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_crane_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_crane_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_crane_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_crane_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "truck003a_interior"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_interior_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_interior_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_interior_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_interior_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "truck003a_body"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_body_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_body_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_body_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Vehicle_Truck003a/textures/truck003a_body_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "glass"
+                    {
+                        over "Shader"
+                        {
+                            float inputs:ior_constant = 1.5 (
+                                customData = {
+                                    float default = 1.3
+                                    dictionary range = {
+                                        float max = 3
+                                        float min = 1
+                                    }
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Index of Refraction"
+                                doc = "Index of Refraction of the material"
+                                hidden = false
+                            )
+                            color3f inputs:transmittance_color = (1, 1, 0.99999) (
+                                customData = {
+                                    float3 default = (0.97, 0.97, 0.97)
+                                    dictionary range = {
+                                        float3 max = (1, 1, 1)
+                                        float3 min = (0, 0, 0)
+                                    }
+                                }
+                                displayGroup = "Volume"
+                                displayName = "Transmittance Color"
+                                doc = "Expected transmittance after the specified transmittance distance through the volume."
+                                hidden = false
+                                renderType = "color"
+                            )
+                            float inputs:transmittance_measurement_distance = 4 (
+                                customData = {
+                                    float default = 1
+                                    dictionary range = {
+                                        float max = 65504
+                                        float min = 0.001
+                                    }
+                                }
+                                displayGroup = "Volume"
+                                displayName = "Transmittance Measurement Distance"
+                                doc = "Distance to match the transmittance through the volume at."
+                                hidden = false
+                            )
+                        }
+                    }
+
+                    over "glass_red"
+                    {
+                        over "Shader"
+                        {
+                            float inputs:thin_wall_thickness = 2 (
+                                customData = {
+                                    float default = 1
+                                    dictionary range = {
+                                        float max = 65504
+                                        float min = 0.001
+                                    }
+                                    dictionary soft_range = {
+                                        float max = 1
+                                        float min = 0.001
+                                    }
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Thin-walled material thickness"
+                                doc = "Simulated thickness for thin-walled materials (0 disables thin-walled mode)"
+                                hidden = false
+                            )
+                            color3f inputs:transmittance_color = (1, 0, 0) (
+                                customData = {
+                                    float3 default = (0.97, 0.97, 0.97)
+                                    dictionary range = {
+                                        float3 max = (1, 1, 1)
+                                        float3 min = (0, 0, 0)
+                                    }
+                                }
+                                displayGroup = "Volume"
+                                displayName = "Transmittance Color"
+                                doc = "Expected transmittance after the specified transmittance distance through the volume."
+                                hidden = false
+                                renderType = "color"
+                            )
+                            float inputs:transmittance_measurement_distance = 2 (
+                                customData = {
+                                    float default = 1
+                                    dictionary range = {
+                                        float max = 65504
+                                        float min = 0.001
+                                    }
+                                }
+                                displayGroup = "Volume"
+                                displayName = "Transmittance Measurement Distance"
+                                doc = "Distance to match the transmittance through the volume at."
+                                hidden = false
+                            )
+                            asset inputs:transmittance_texture = @@ (
+                                colorSpace = "auto"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Volume"
+                                displayName = "Transmittance or Diffuse Albedo Texture"
+                                doc = "Texture map for either the transmittance color of the material, or the albedo color of the diffuse layer"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "glass_yellow"
+                    {
+                        over "Shader"
+                        {
+                            float inputs:emissive_intensity (
+                                customData = {
+                                    float default = 40
+                                    dictionary range = {
+                                        float max = 65504
+                                        float min = 0
+                                    }
+                                }
+                                displayGroup = "Emissive"
+                                displayName = "Emissive Intensity"
+                                doc = "Intensity of the emission"
+                                hidden = false
+                            )
+                            bool inputs:enable_emission (
+                                customData = {
+                                    bool default = 0
+                                }
+                                displayGroup = "Emissive"
+                                displayName = "Enable Emission"
+                                doc = "Enables the emission of light from the material"
+                                hidden = false
+                            )
+                            int inputs:encoding (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_7B8C2A11AA686AE5" (
+            references = None
+        )
+        {
+            def Xform "ref_94410b341d4b477ca06d08f7d49f1529" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_ControlRoom_Chair/controlroom_chair001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "controlroom_chair001"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "Looks"
+                {
+                    over "controlroom_chair001"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_ControlRoom_Chair/textures/controlroom_chair001_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_ControlRoom_Chair/textures/controlroom_chair001_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_ControlRoom_Chair/textures/controlroom_chair001_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_ControlRoom_Chair/textures/controlroom_chair001_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_9306F43556972D4C" (
+            references = None
+        )
+        {
+            def Xform "ref_5a7a4839e4c341b292fac4fc2338eace" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Combine_Helicopter_Bomb/helicopter_bomb01.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "helicopter_bomb01"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                over "helicopter_bomb01_glass"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+
+                over "Looks"
+                {
+                    over "helicopter_bomb01"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Combine_Helicopter_Bomb/textures/helicopter_bomb01_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            float inputs:emissive_intensity = 10 (
+                                customData = {
+                                    float default = 40
+                                    dictionary range = {
+                                        float max = 65504
+                                        float min = 0
+                                    }
+                                }
+                                displayGroup = "Emissive"
+                                displayName = "Emissive Intensity"
+                                doc = "Intensity of the emission"
+                                hidden = false
+                            )
+                            asset inputs:emissive_mask_texture = @./assets/ch4_waterhazard/models/SM_Combine_Helicopter_Bomb/textures/helicopter_bomb01_selfillum.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Emissive"
+                                displayName = "Emissive Mask Map"
+                                doc = "The texture masking the emissive color"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            bool inputs:enable_emission = 1 (
+                                customData = {
+                                    bool default = 0
+                                }
+                                displayGroup = "Emissive"
+                                displayName = "Enable Emission"
+                                doc = "Enables the emission of light from the material"
+                                hidden = false
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Combine_Helicopter_Bomb/textures/helicopter_bomb01_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Combine_Helicopter_Bomb/textures/helicopter_bomb01_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Combine_Helicopter_Bomb/textures/helicopter_bomb01_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_72015B811C04B3E8" (
+            references = None
+        )
+        {
+            def Xform "ref_0e04064ae95e4da1bade95ab76f4b674" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Canal_Canal_Bridge_Railing_Lamps/SM_Prop_Canal_Canal_Bridge_Railing_Lamps.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "M_Prop_OutdoorsSet_B1"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "M_Prop_OutdoorsSet_B1_Glass"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "Looks"
+                {
+                    over "M_Prop_OutdoorsSet_B1"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Canal_Canal_Bridge_Railing_Lamps/textures/Canal_Bridge_Railing_Lamps_diffuse.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Canal_Canal_Bridge_Railing_Lamps/textures/Canal_Bridge_Railing_Lamps_metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Canal_Canal_Bridge_Railing_Lamps/textures/Canal_Bridge_Railing_Lamps_normal_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Canal_Canal_Bridge_Railing_Lamps/textures/Canal_Bridge_Railing_Lamps_rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_E331B97D9D1EF318" (
+            references = None
+        )
+        {
+            def Xform "ref_3cd0400706a04d49b8f1ec0e540905a3" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/SM_Prop_Debris_Concretedebris_128pile001b.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "root"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "Looks"
+                {
+                    over "M_Prop_Rubble_A1_Material_1"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Albedo.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Normal_OTH.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "M_Prop_Rubble_A1_Material_3"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Albedo.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Normal_OTH.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_2FB92A1E6AFBE012" (
+            references = None
+        )
+        {
+            def Xform "ref_61ce7059487741ccbe9451cc0beeee5f" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/SM_Prop_Debris_Concretedebris_128pile001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "M_Prop_Rubble_A1_Material_1"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "M_Prop_Rubble_A1_Material_3"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "Looks"
+                {
+                    over "M_Prop_Rubble_A1_Material_1_002_001"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Albedo.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Normal_OTH.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_1_Rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+
+                    over "M_Prop_Rubble_A1_Material_3_001_001"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Albedo.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Metal.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Normal_OTH.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Debris_Concretedebris_Set/textures/T_Prop_Rubble_A1_Material_3_Rough.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_E94A3AF55AC4702E" (
+            references = None
+        )
+        {
+            def Xform "ref_6ba95bee0ed5456d96af2ba7df148b5b" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/SM_Prop_Borealis_BlueBarrel.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (0.01, 0.01, 0.01)
+                    double3 xformOp:translate = (0, 0, 0)
+                    float3 xformOp:translate:pivot = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "plastic_barrel_1"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/textures/plastic_barrel_1_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/textures/plastic_barrel_1_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/textures/plastic_barrel_1_rough.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_65CC89FC3711A6DC" (
+            references = None
+        )
+        {
+            def Xform "ref_8d5340162ae4415ab0e24c3c32c00057" (
+                prepend references = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/SK_Prop_Vehicle_Wagon_Static.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "Tirehigh_012"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "wagon"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Base_color.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Normal_OpenGL_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_22CDEE5E5537FBF3" (
+            references = None
+        )
+        {
+            def Xform "ref_fda462b9ba304534a0c51c96bddee5b1" (
+                prepend references = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/SK_Prop_Vehicle_Wagon_Physics.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over Xform "wagon001a_phy_reference_skeleton0"
+                        {
+                            over "Cylinder_007"
+                            {
+                                uniform token[] skel:joints = None
+                                rel skel:skeleton = </RootNode/meshes/mesh_22CDEE5E5537FBF3/skel>
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "wagon_001"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Base_color.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Normal_OpenGL_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "wagon_002"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Base_color.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Normal_OpenGL_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SK_Prop_Vehicle_Wagon/textures/wagon_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_1C392CFDC35D51EE" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_A552C0D51596D03D" (
+            references = None
+        )
+        {
+            def Xform "ref_4ea5260fdf64488a87985e457b4bdf12" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_Door_Wheel/SM_Prop_Borealis_Door_Wheel.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "root"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "SM_Prop_Borealis_Door_Wheel"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_Door_Wheel/textures/SM_Prop_Borealis_Door_Wheel_color.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_Door_Wheel/textures/SM_Prop_Borealis_Door_Wheel_metal.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_Door_Wheel/textures/SM_Prop_Borealis_Door_Wheel_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_Door_Wheel/textures/SM_Prop_Borealis_Door_Wheel_rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_3E2020D7CEB6CD24" (
+            references = None
+        )
+        {
+            def Xform "ref_ba37ea45fd3a4926bfaa763ba1169d35" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_Canals_08_Basket/mesh_Canals_08_Basket_low.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+
+                        over "Looks"
+                        {
+                            over "Material_001"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_Canals_08_Basket/textures/mesh_Canals_08_Basket_low_Material_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_Canals_08_Basket/textures/mesh_Canals_08_Basket_low_Material_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_Canals_08_Basket/textures/mesh_Canals_08_Basket_low_Material_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_Canals_08_Basket/textures/mesh_Canals_08_Basket_low_Material_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_12240236849E7FF7" (
+            references = None
+        )
+        {
+            def Xform "ref_c56b7e6c2928417980ff61ac77c6923f" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Foliage_Cattails/Cattails.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "Cattails"
+                        {
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "GrassBlades"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Foliage_Cattails/textures/Albedo.a.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Foliage_Cattails/textures/Normal_OpenGL_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Foliage_Cattails/textures/Roughness.r.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_661529598354580F" (
+            references = None
+        )
+        {
+            def Xform "ref_d595b1ce22454094a6ceb99a1f2e23d9" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/SM_Prop_Borealis_BlueBarrel_Crushed.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "barrel_plastic_1"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "plastic_barrel_1"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/textures/plastic_barrel_1_color.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/textures/plastic_barrel_1_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Borealis_BlueBarrel_Set/textures/plastic_barrel_1_rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_825046C6E6D38D2C" (
+            references = None
+        )
+        {
+            def Xform "ref_e313109d6b3d432f8fbd2a2b45dd2e6e" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_D1_Canals_07_Bars_01/SM_Prop_BSPmesh_D1_Canals_07_Bars_01.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_BSPmesh_D1_Canals_07_Bars_01"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "SM_Prop_BSPmesh_D1_Canals_07_Bars_01"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_D1_Canals_07_Bars_01/textures/T_d1_canals_07_bars_01_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_D1_Canals_07_Bars_01/textures/T_d1_canals_07_bars_01_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_D1_Canals_07_Bars_01/textures/T_d1_canals_07_bars_01_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_BSPmesh_D1_Canals_07_Bars_01/textures/T_d1_canals_07_bars_01_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "M_Prop_C17_Fence_Set"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch2_redletterday/models/SM_Prop_C17_Fence_Set/textures/T_Prop_C17_Fence Set_Albedo.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch2_redletterday/models/SM_Prop_C17_Fence_Set/textures/T_Prop_C17_Fence Set_Metal.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch2_redletterday/models/SM_Prop_C17_Fence_Set/textures/T_Prop_C17_Fence Set_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch2_redletterday/models/SM_Prop_C17_Fence_Set/textures/T_Prop_C17_Fence Set_Rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_6AB86CF400510AEA" (
+            references = None
+        )
+        {
+            def Xform "ref_bcc0998b961d4aafaa640355be7d9248" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/SM_Item_Ammo_SMG.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Item_Ammo_SMG"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "T_SM_Item_Ammo_SMG"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_SMG_BC.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_SMG_metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_SMG_N_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_SMG_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_E906DFA95FCCCDBC" (
+            references = None
+        )
+        {
+            def Xform "ref_10dba3196c3d4fff9ea8061e7525b2e3" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/SM_Item_Ammo_SMG_Grenade1.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Item_Ammo_SMG_Grenade1"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (4.250329486915888, 0, 0.5970342754907563)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "T_SM_Item_Ammo_Grenades"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_BC.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_N_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_5D41584DAECDA07D" (
+            references = None
+        )
+        {
+            def Xform "ref_200cb3aea65c4dc698a47dc3e76c8660" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/SM_Item_Ammo_SMG_Grenade2.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Item_Ammo_SMG_Grenade2"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (4.025195671293659, 0, 0.5411926161571188)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "T_SM_Item_Ammo_Grenades"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_BC.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_N_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Item_Ammo_SMG_Set/textures/T_SM_Item_Ammo_Grenades_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_25CBB550F342854A" (
+            references = None
+        )
+        {
+            def Xform "ref_a46f040c6bce45d89f20b227a5f17cce" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Canal_BridgePillar02/SM_Prop_Canal_BridgePillar02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Canal_BridgePillar02"
+                        {
+                            float3 xformOp:rotateXYZ = (90, 0, 0)
+                            float3 xformOp:scale = (0.01, 0.01, 0.01)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "MI_Prop_Canal_BridgePillar02"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Canal_BridgePillar02/textures/T_Prop_Canal_BridgePillar02_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_41226A1706316555" (
+            references = None
+        )
+        {
+            def Xform "ref_bfbabe863fa54a39a1249703dbc74812" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/cafeteria_bench001a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "cafeteria_bench001a"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "cafeteria_bench001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_F686952C57B7D485" (
+            references = None
+        )
+        {
+            def Xform "ref_8ca8b3c5d18346a88e1e15020014eebb" (
+                references = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/cafeteria_bench001a_Chunk01_reference.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "cafeteria_bench001a_Chunk01_reference"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "CafeteriaBenchGibs"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_44041DC444978713" (
+            references = None
+        )
+        {
+            def Xform "ref_9834578157c1435eac7bd6e7dc3da9f8" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/cafeteria_bench001a_Chunk02_reference.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "cafeteria_bench001a_Chunk02_reference"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, -1)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "CafeteriaBenchGibs"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_A1ECBF07695CE63F" (
+            references = None
+        )
+        {
+            def Xform "ref_ea82728220544f5f92a1e7997e485467" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/cafeteria_bench001a_Chunk03_reference.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "cafeteria_bench001a_Chunk03_reference"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "CafeteriaBenchGibs"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_CBB6127603B64E34" (
+            references = None
+        )
+        {
+            def Xform "ref_5d1c4fcf173e412c8a618afee8030fdc" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/cafeteria_bench001a_Chunk04_reference.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "cafeteria_bench001a_Chunk04_reference"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "CafeteriaBenchGibs"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_90CFEF20BBF379C0" (
+            references = None
+        )
+        {
+            def Xform "ref_496e5460bdd34fd9be67e1f12099bb6c" (
+                prepend references = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/cafeteria_bench001a_Chunk05_reference.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "cafeteria_bench001a_Chunk05_reference"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "CafeteriaBenchGibs"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch4_waterhazard/models/SM_Prop_Wasteland_CafeteriaBench_Set/textures/T_CafeteriaBenchGibs_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "Looks"
+    {
+    }
+}
+

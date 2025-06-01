@@ -1,0 +1,370 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_1831B6BE255F8A11"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_003a/decalgraffiti003a.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_rough.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_4DD6DB62FC3A73E6"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/ToxicSlime/m_toxicslime001a_basecolor.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/ToxicSlime/m_toxicslime001a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/ToxicSlime/m_toxicslime001a_roughness.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_94037D7A8075BAD7"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/ToxicSlime/m_toxicslime003a_basecolor.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/ToxicSlime/m_toxicslime003a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/ToxicSlime/m_toxicslime003a_roughness.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_1EFD2FE9EA77C3AA"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_056a/decalgraffiti056a.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_038a/decalgraffiti038a_rough.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_05B385B5E007BACD"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/ToxicSlime/T_Toxic_Slime_002a_Albedo.a.rtex.dds@ (
+                    colorSpace = "sRGB"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Diffuse"
+                    displayName = "Albedo Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/ToxicSlime/T_Toxic_Slime_002a_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Normal"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/ToxicSlime/T_Toxic_Slime_002a_Rough.r.rtex.dds@ (
+                    colorSpace = "raw"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Specular"
+                    displayName = "Roughness Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+
+
+
+
+
+
+
+        over "mat_38C9D8448FCEB10D"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/models/SK_Barnacle/textures/barnacle_body_color.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/models/SK_Barnacle/textures/barnacle_body_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/models/SK_Barnacle/textures/barnacle_body_rough.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_F3C6DE227E9B6609"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/models/SK_Barnacle/textures/barnaclet_tongue_color.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/models/SK_Barnacle/textures/barnaclet_tongue_normal_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/models/SK_Barnacle/textures/barnaclet_tongue_rough.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+        over "mat_72A5A153EAC1A913"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Decals/M_Decal_Graffiti_031a/decalgraffiti031a.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+
+
+        over "mat_486EE7CFD21A0AFA"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/ch3_routekanal/materials/Concrete/M_Concrete_Wall_010_Set/T_Concrete_Floor_010_a_Basecolor.a.rtex.dds@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:displace_in = 0.01 (
+                    customData = {
+                        float default = 0.05
+                        dictionary range = {
+                            float max = 0.2
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Inwards Displacement"
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
+This parameter is unused."""
+                    hidden = false
+                )
+                asset inputs:height_texture = @./assets/ch3_routekanal/materials/Concrete/M_Concrete_Wall_010_Set/T_Concrete_Floor_010_a_Height.h.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Displacement"
+                    displayName = "Height Map"
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:normalmap_texture = @./assets/ch3_routekanal/materials/Concrete/M_Concrete_Wall_010_Set/T_Concrete_Floor_010_a_OTH_Normal.n.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Normal Map"
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                asset inputs:reflectionroughness_texture = @./assets/ch3_routekanal/materials/Concrete/M_Concrete_Wall_010_Set/T_Concrete_Floor_010_a_Roughness.r.rtex.dds@ (
+                    colorSpace = "auto"
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Map"
+                    doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+            }
+        }
+    }
+
+    over "meshes"
+    {
+    }
+}
+

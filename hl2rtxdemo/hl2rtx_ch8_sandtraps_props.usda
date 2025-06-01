@@ -1,0 +1,2165 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_14CB43DCFCE42A2F" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_83436127D02306B0" (
+            references = None
+        )
+        {
+            def Xform "ref_d21381d0ae7f44ab887233291beb0423" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Borealis_Door/borealis_door001a.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "borealis_door001a"
+                {
+                    float3 xformOp:rotateXYZ = (0, -0, 0)
+                }
+
+                over "Looks"
+                {
+                    over "borealis_door001a"
+                    {
+                        over "Shader"
+                        {
+                            asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_Borealis_Door/textures/Borealis_door001a_Base_color.a.rtex.dds@ (
+                                colorSpace = "sRGB"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Diffuse"
+                                displayName = "Albedo Map"
+                                doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            int inputs:encoding = 0 (
+                                customData = {
+                                    int default = 0
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map Encoding"
+                                doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                hidden = false
+                                renderType = "normalmap_encoding"
+                                sdrMetadata = {
+                                    string __SDR__enum_value = "octahedral"
+                                    string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                }
+                            )
+                            asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SM_Prop_Borealis_Door/textures/Borealis_door001a_Metallic.m.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Metallic Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_Borealis_Door/textures/Borealis_door001a_Normal_OpenGL_OTH_Normal.n.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Normal"
+                                displayName = "Normal Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                            asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_Borealis_Door/textures/Borealis_door001a_Roughness.r.rtex.dds@ (
+                                colorSpace = "raw"
+                                customData = {
+                                    asset default = @@
+                                }
+                                displayGroup = "Specular"
+                                displayName = "Roughness Map"
+                                hidden = false
+                                renderType = "texture_2d"
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_3051787C2CDDEE66" (
+            references = None
+        )
+        {
+            def Xform "ref_51950582ad21402b9f98c4eba27292ca" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_PrisonBracket/SM_Prop_Wasteland_PrisonBracket.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (0.01, 0.01, 0.01)
+                    double3 xformOp:translate = (0, 0, 0)
+                    float3 xformOp:translate:pivot = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "industrial_bracket_001"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_PrisonBracket/textures/industrial_bracket_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_PrisonBracket/textures/industrial_bracket_metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_PrisonBracket/textures/industrial_bracket_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_PrisonBracket/textures/industrial_bracket_rough.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_EA994C4D488324D3" (
+            references = None
+        )
+        {
+            def Xform "ref_b9104167d4814722a8579028c3352b6b" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_Coast_12_Grate_02/SM_Prop_BSPmesh_Coast_12_Grate_02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_BSPmesh_Coast_12_Grate_02_Upscaled"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "d1_trainstation_02_fence_02"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_Coast_12_Grate_02/textures/T_SM_Prop_BSPmesh_Coast_12_Grate_02_Albedo.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_Coast_12_Grate_02/textures/T_SM_Prop_BSPmesh_Coast_12_Grate_02_Metallness.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_Coast_12_Grate_02/textures/T_SM_Prop_BSPmesh_Coast_12_Grate_02_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_Coast_12_Grate_02/textures/T_SM_Prop_BSPmesh_Coast_12_Grate_02_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_318D59C47489D8A3" (
+            references = None
+        )
+        {
+            def Xform "ref_741042b88bcf4de5925a39f4292eee8d" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/SM_Prop_BSPmesh_metalgate_005a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "gate_004_low_002"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 0, 0)
+                        }
+
+                        over "Looks"
+                        {
+                            over "metal_gate"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_Metal.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "metalgate005"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_Metal.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_metalgate_005a/textures/T_Prop_BSPmesh_metalgate_005a_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_1E1117091EDF0F96" (
+            references = None
+        )
+        {
+            def Xform "ref_95442987f14e409f91be873243884c96" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_BSPmesh_GlassWindow_029c"
+                        {
+                            over "SM_Prop_BSPmesh_GlassWindow_029c"
+                            {
+                                over "Prop_BSPmesh_GlassWindow_029c" (
+                                    prepend apiSchemas = ["MaterialBindingAPI"]
+                                )
+                                {
+                                    rel material:binding = </RootNode/meshes/mesh_1E1117091EDF0F96/ref_95442987f14e409f91be873243884c96/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks> (
+                                        bindMaterialAs = "strongerThanDescendants"
+                                    )
+
+                                    def Material "Looks"
+                                    {
+                                        token outputs:mdl:displacement.connect = </RootNode/meshes/mesh_1E1117091EDF0F96/ref_95442987f14e409f91be873243884c96/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks/Shader.outputs:out>
+                                        token outputs:mdl:surface.connect = </RootNode/meshes/mesh_1E1117091EDF0F96/ref_95442987f14e409f91be873243884c96/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks/Shader.outputs:out>
+                                        token outputs:mdl:volume.connect = </RootNode/meshes/mesh_1E1117091EDF0F96/ref_95442987f14e409f91be873243884c96/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks/Shader.outputs:out>
+
+                                        def Shader "Shader"
+                                        {
+                                            uniform token info:implementationSource = "sourceAsset"
+                                            uniform asset info:mdl:sourceAsset = @AperturePBR_Opacity.mdl@
+                                            uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Opacity"
+                                            asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Prop_BSPmesh_GlassWindow_029c_BaseColor.a.rtex.dds@ (
+                                                colorSpace = "auto"
+                                                customData = {
+                                                    asset default = @@
+                                                }
+                                                displayGroup = "Base Material"
+                                                displayName = "Albedo/Opacity Map"
+                                                doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                                hidden = false
+                                                renderType = "texture_2d"
+                                            )
+                                            asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Prop_BSPmesh_GlassWindow_029c_OTH_Normal.n.rtex.dds@ (
+                                                colorSpace = "auto"
+                                                customData = {
+                                                    asset default = @@
+                                                }
+                                                displayGroup = "Base Material"
+                                                displayName = "Normal Map"
+                                                hidden = false
+                                                renderType = "texture_2d"
+                                            )
+                                            asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Prop_BSPmesh_GlassWindow_029c_Roughness.r.rtex.dds@ (
+                                                colorSpace = "auto"
+                                                customData = {
+                                                    asset default = @@
+                                                }
+                                                displayGroup = "Base Material"
+                                                displayName = "Roughness Map"
+                                                doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                                hidden = false
+                                                renderType = "texture_2d"
+                                            )
+                                            token outputs:out (
+                                                renderType = "material"
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Glass"
+                            {
+                                over "Shader"
+                                {
+                                    float inputs:ior_constant = 1.3 (
+                                        customData = {
+                                            float default = 1.3
+                                            dictionary range = {
+                                                float max = 3
+                                                float min = 1
+                                            }
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Index of Refraction"
+                                        doc = """Index of Refraction of the material
+
+"""
+                                        hidden = false
+                                    )
+                                    float inputs:thin_wall_thickness = 1 (
+                                        customData = {
+                                            float default = 1
+                                            dictionary range = {
+                                                float max = 65504
+                                                float min = 0.001
+                                            }
+                                            dictionary soft_range = {
+                                                float max = 1
+                                                float min = 0.001
+                                            }
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Thin-walled material thickness"
+                                        doc = """Simulated thickness for thin-walled materials (0 disables thin-walled mode)
+
+"""
+                                        hidden = false
+                                    )
+                                    bool inputs:thin_walled = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Thin-walled"
+                                        doc = """Whether the material is thin-walled, use when material is being applied to single triangle thick geometry.
+
+"""
+                                        hidden = false
+                                    )
+                                    float inputs:transmittance_measurement_distance = 5 (
+                                        customData = {
+                                            float default = 1
+                                            dictionary range = {
+                                                float max = 65504
+                                                float min = 0.001
+                                            }
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Transmittance Measurement Distance"
+                                        doc = """Distance to match the transmittance through the volume at.
+
+"""
+                                        hidden = false
+                                    )
+                                    asset inputs:transmittance_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Glass_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Transmittance Color/Diffuse Albedo Texture"
+                                        doc = """Texture map for either the transmittance color of the material, or the albedo color of the diffuse layer
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:use_diffuse_layer = 0 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Use diffuse layer"
+                                        doc = """When set, simulates a diffuse layer on top of the material
+
+"""
+                                        hidden = false
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_AD23173B8BE80AFE" (
+            references = None
+        )
+        {
+            def Xform "ref_1d52ed1709f34a85b47f19b98ccc51a4" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_BSPmesh_GlassWindow_029c"
+                        {
+                            float3 xformOp:translate:pivot = (0, 0, 0)
+
+                            over "SM_Prop_BSPmesh_GlassWindow_029c"
+                            {
+                                over "Prop_BSPmesh_GlassWindow_029c" (
+                                    prepend apiSchemas = ["MaterialBindingAPI"]
+                                )
+                                {
+                                    rel material:binding = </RootNode/meshes/mesh_AD23173B8BE80AFE/ref_1d52ed1709f34a85b47f19b98ccc51a4/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks> (
+                                        bindMaterialAs = "strongerThanDescendants"
+                                    )
+
+                                    def Material "Looks"
+                                    {
+                                        token outputs:mdl:displacement.connect = </RootNode/meshes/mesh_AD23173B8BE80AFE/ref_1d52ed1709f34a85b47f19b98ccc51a4/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks/Shader.outputs:out>
+                                        token outputs:mdl:surface.connect = </RootNode/meshes/mesh_AD23173B8BE80AFE/ref_1d52ed1709f34a85b47f19b98ccc51a4/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks/Shader.outputs:out>
+                                        token outputs:mdl:volume.connect = </RootNode/meshes/mesh_AD23173B8BE80AFE/ref_1d52ed1709f34a85b47f19b98ccc51a4/XForms/World/SM_Prop_BSPmesh_GlassWindow_029c/SM_Prop_BSPmesh_GlassWindow_029c/Prop_BSPmesh_GlassWindow_029c/Looks/Shader.outputs:out>
+
+                                        def Shader "Shader"
+                                        {
+                                            uniform token info:implementationSource = "sourceAsset"
+                                            uniform asset info:mdl:sourceAsset = @AperturePBR_Opacity.mdl@
+                                            uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Opacity"
+                                            asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Prop_BSPmesh_GlassWindow_029c_BaseColor.a.rtex.dds@ (
+                                                colorSpace = "auto"
+                                                customData = {
+                                                    asset default = @@
+                                                }
+                                                displayGroup = "Base Material"
+                                                displayName = "Albedo/Opacity Map"
+                                                doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                                                hidden = false
+                                                renderType = "texture_2d"
+                                            )
+                                            asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Prop_BSPmesh_GlassWindow_029c_OTH_Normal.n.rtex.dds@ (
+                                                colorSpace = "auto"
+                                                customData = {
+                                                    asset default = @@
+                                                }
+                                                displayGroup = "Base Material"
+                                                displayName = "Normal Map"
+                                                hidden = false
+                                                renderType = "texture_2d"
+                                            )
+                                            asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Prop_BSPmesh_GlassWindow_029c_Roughness.r.rtex.dds@ (
+                                                colorSpace = "auto"
+                                                customData = {
+                                                    asset default = @@
+                                                }
+                                                displayGroup = "Base Material"
+                                                displayName = "Roughness Map"
+                                                doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                                                hidden = false
+                                                renderType = "texture_2d"
+                                            )
+                                            token outputs:out (
+                                                renderType = "material"
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Glass"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Glass_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:transmittance_texture = @./assets/ch8_sandtraps/models/SM_Prop_BSPmesh_GlassWindow_029c/textures/Glass_BaseColor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Transmittance Color/Diffuse Albedo Texture"
+                                        doc = """Texture map for either the transmittance color of the material, or the albedo color of the diffuse layer
+
+"""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_391CDA0C4C7C9C70" (
+            references = None
+        )
+        {
+            def Xform "ref_98ed700e74274380be5a41ae186b21d1" (
+                prepend references = @./assets/ch8_sandtraps/models/SK_Antlion/SK_Antlion_Gib_Abdomen.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "Antlion_007"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (-0.4712916862098382, -3.552713678800501e-14, 2.1416232248191243)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "antlion_gibs_sheet"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_RGB.a.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_Roughness.r.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_FF385141DDA085B4" (
+            references = None
+        )
+        {
+            def Xform "ref_55504e2635f14cd3a36eac5cd43ddd96" (
+                prepend references = @./assets/ch8_sandtraps/models/SK_Antlion/SK_Antlion_Gib_Head.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "Antlion_002"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (0, 2.5579538487363607e-13, -3.87531599543226)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "antlion_gibs_sheet_005"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_RGB.a.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_A473C1246B1530CD" (
+            references = None
+        )
+        {
+            def Xform "ref_d0a4da0e8e8146208b2af0cbc11e5758" (
+                prepend references = @./assets/ch8_sandtraps/models/SK_Antlion/SK_Antlion_Gib_Wingcase.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "Antlion_004"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 90)
+                            float3 xformOp:scale = (1, 1, 1)
+                            double3 xformOp:translate = (-2.1713251192905716, 3.44000268248638, 8.102459527069641)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "antlion_gibs_sheet_004"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_RGB.a.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SK_Antlion/textures/Antlion_Gibs_Roughness.r.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_F28360EFAEB309CD" (
+            references = None
+        )
+        {
+            def Xform "ref_557d8825efa446e88e157ce5517ce7b5" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Item_Ammo_Crossbow/SM_Item_Ammo_Crossbow.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Item_Ammo_Crossbow"
+                        {
+                            float3 xformOp:rotateXYZ = (-90, 0, 0)
+                            float3 xformOp:scale = (0.415, 0.415, 0.415)
+                            double3 xformOp:translate = (0.25, 1.35, 0.15)
+                            float3 xformOp:translate:pivot = (-0.30309474, -1.4082346, -0.105632424)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "M_Item_Ammo_Crossbow"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Item_Ammo_Crossbow/textures/T_Item_Ammo_Crossbow_color.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch8_sandtraps/models/SM_Item_Ammo_Crossbow/textures/T_Item_Ammo_Crossbow_metal.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Item_Ammo_Crossbow/textures/T_Item_Ammo_Crossbow_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Item_Ammo_Crossbow/textures/T_Item_Ammo_Crossbow_rough.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_B1C12A8BDFDEC2F0" (
+            references = None
+        )
+        {
+            def Xform "ref_0f59942c557e4df9bb0f1ff8955baa7c" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Boat_01/Prop_Wasteland_Boat_01.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:scale = (1, 1, 1)
+
+                    over "root"
+                    {
+                        over "_materials"
+                        {
+                            over "Prop_Wasteland_Boat_01"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Boat_01/textures/Prop_Wasteland_Boat_01_BaseColor.a.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Boat_01/textures/Prop_Wasteland_Boat_01_Normals_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Boat_01/textures/Prop_Wasteland_Boat_01_Roughness.r.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Prop_Wasteland_Boat_01_Extras"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Boat_01/textures/Prop_Wasteland_Boat_01_Extras_BaseColor.a.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Boat_01/textures/Prop_Wasteland_Boat_01_Extras_Normals_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Boat_01/textures/Prop_Wasteland_Boat_01_Extras_Roughness.r.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+
+                        over "env_light"
+                        {
+                            float inputs:intensity = 0
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_14FAFAC5CFD00F1D" (
+            references = None
+        )
+        {
+            def Xform "ref_b7f3f6ad9c1f419c88f9551eda47fbf1" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_01a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_01a"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_BED761D29049A34C" (
+            references = None
+        )
+        {
+            def Xform "ref_86444918d8b641368b3b21900b63153d" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_01b.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_01b"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_915CA1D91571DFD8" (
+            references = None
+        )
+        {
+            def Xform "ref_3bc2732397f5401983bddbb1e8a2fb43" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_01c.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_01c"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_D323A8F45D408B08" (
+            references = None
+        )
+        {
+            def Xform "ref_c31aab9dd82c4531bc05fa9af7b27377" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_02a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_02a"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_27FF2EB0DA56C446" (
+            references = None
+        )
+        {
+            def Xform "ref_09538cdffb754442aeb918ec1c366a49" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_02b.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_02b"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_95F618BB7D07CC5B" (
+            references = None
+        )
+        {
+            def Xform "ref_643c8cf9d7bb4d22a99fc8bfc30de520" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_02c.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_02c"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_193ECD63B15860C0" (
+            references = None
+        )
+        {
+            def Xform "ref_2bfe88b415164a42bcc904be9e0165fa" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_03a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_03a"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_469FDC3E50F834B3" (
+            references = None
+        )
+        {
+            def Xform "ref_50850213323847149a5745e93b5f8a82" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_03b.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_03b"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_1D6F83E1DFF47982" (
+            references = None
+        )
+        {
+            def Xform "ref_3dc5817871b74977ae05eac0b7c3c398" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_04a.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_04a"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_04645957CAED7FB1" (
+            references = None
+        )
+        {
+            def Xform "ref_986bec956ab84f5d94472800eba1ceed" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_04b.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_04b"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_9B78386C11D121BD" (
+            references = None
+        )
+        {
+            def Xform "ref_30ed965a1432400e8c2edfb19f566489" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_04c.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_04c"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_BA28DCEADA231EA3" (
+            references = None
+        )
+        {
+            def Xform "ref_bd44dbe34b374bbea68b701d50f6ccbb" (
+                prepend references = @./assets/ch8_sandtraps/models/SM_Prop_Wasteland_Rock_Granite_Set/SM_Prop_Wasteland_Rock_Granite_03c.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_Wasteland_Rock_Granite_03c"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (10, 10, 10)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "clifface001a"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_basecolor.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Albedo/Opacity Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:height_texture = @@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.  A pixel of value displace_in / (displace_in + displace_out) will be the original height of the triangle.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch7_highway17/materials/nature/M_Nature_CliffFace_001a/CliffFace001a_roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

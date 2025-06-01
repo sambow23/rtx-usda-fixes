@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [
+        @./hl2rtx_ch5_blackmesaeast_props.usda@,
+        @./hl2rtx_ch5_blackmesaeast_textures.usda@,
+        @./hl2rtx_ch5_blackmesaeast_decals.usda@,
+        @./hl2rtx_ch5_blackmesaeast_skinned.usda@,
+        @./hl2rtx_ch5_blackmesaeast_lights.usda@
+    ]
+    upAxis = "Z"
+)
+

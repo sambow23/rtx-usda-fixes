@@ -1,0 +1,454 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_9C795881560CB46B"
+        {
+            def Xform "ref_e58b2a90258740278bd55cd166bf7ba3" (
+                prepend references = @./assets/ch2_redletterday/lighting/HL2_Klab_Lighting_B.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "Klab_A"
+                {
+                    over "FillLights"
+                    {
+                        over "Florecent"
+                        {
+                            over "Florecent_J"
+                            {
+                                color3f color = (0.5984556, 1, 0.9767446)
+                                float height = 30
+                                float intensity = 80000
+                                float width = 350
+                                double3 xformOp:rotateXYZ = (65, 0, 0)
+                                double3 xformOp:scale = (1, 1, 0.9999999999999979)
+                                double3 xformOp:translate = (-144.01056304450412, -598.261092767628, 68.89506070386904)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "Florecent_Exposed_A"
+                            {
+                                color3f color = (0.996139, 0.995946, 0.9461397)
+                                float intensity = 5500
+                            }
+
+                            over "Florecent_Exposed_B"
+                            {
+                                color3f color = (0.98841697, 0.968643, 0.90445876)
+                                float intensity = 400
+                            }
+
+                            over "Florecent_B"
+                            {
+                                color3f color = (0.9606296, 0.972973, 0.92789316)
+                                float intensity = 500
+                                double3 xformOp:rotateXYZ = (0, 0, 0)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (130.99999999999363, -45.99999999975989, -36.378869288528136)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "Florecent_A"
+                            {
+                                color3f color = (0.9626977, 0.98455596, 0.9047271)
+                                float intensity = 1500
+                                double3 xformOp:rotateXYZ = (0, 0, 0)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (130.99999999999181, 80.00000000013483, -36.584581434999535)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "Florecent_E"
+                            {
+                                color3f color = (0.98837095, 1, 0.95752895)
+                                float height = 6
+                                float intensity = 7500
+                                float width = 60
+                                double3 xformOp:rotateXYZ = (0, 0, 0)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (-15.999999999202373, 104.00000000014984, -36.76899459817136)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "Florecent_D"
+                            {
+                                color3f color = (0.969608, 0.98841697, 0.9197239)
+                                float height = 6
+                                float intensity = 300
+                                double3 xformOp:rotateXYZ = (0, 0, 0)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (-95.99999999981719, -45.99999999995339, -36.6349557200586)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "Florecent_C"
+                            {
+                                color3f color = (0.9616568, 0.98455596, 0.9009257)
+                                float intensity = 300
+                                double3 xformOp:rotateXYZ = (0, 0, 0)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (-248.9999999999054, -45.999999999975216, -36.611223566098346)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "Florecent_H"
+                            {
+                                double3 xformOp:rotateXYZ = (0, 0, 0)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (782.1000016714861, 481.63854022637497, -27.95384250058993)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "Florecent_F"
+                            {
+                                color3f color = (0.5945946, 0.9859571, 1)
+                                float height = 30
+                                float intensity = 80000
+                                float width = 350
+                                double3 xformOp:rotateXYZ = (53.3443624085603, 0, 0)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (-145.72465458145325, -599.4349487249513, 116.98389817682329)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+
+                        over "BulkHeads"
+                        {
+                            over "Bulkhead_D"
+                            {
+                                color3f color = (0.45635873, 0.94670147, 0.976834)
+                                float intensity = 2000
+                            }
+
+                            over "Bulkhead_C"
+                            {
+                                color3f color = (0.47490346, 0.884474, 1)
+                                float intensity = 3000
+                            }
+
+                            over "Bulkhead_B"
+                            {
+                                color3f color = (0.5380957, 0.889319, 0.98841697)
+                                float intensity = 2000
+                            }
+
+                            over "Bulkhead_A"
+                            {
+                                color3f color = (1, 0.9454388, 0.76833975)
+                                float intensity = 1000
+                            }
+                        }
+                    }
+
+                    over "PrimaryLights"
+                    {
+                        over "SunLight"
+                        {
+                            over "Sun_C"
+                            {
+                                color3f color = (0.80523545, 0.98841697, 0.926884)
+                                float intensity = 0
+                            }
+
+                            over "Sun_D"
+                            {
+                                color3f color = (0.8069498, 1, 0.9351528)
+                                float intensity = 0
+                            }
+
+                            over "Sun_A"
+                            {
+                                color3f color = (0.8275369, 0.992278, 0.93694013)
+                                float intensity = 0
+                            }
+
+                            over "Sun_B"
+                            {
+                                color3f color = (0.80651754, 0.980695, 0.92218745)
+                                float height = 2
+                                float intensity = 0
+                                float width = 80
+                                double3 xformOp:rotateXYZ = (79.98779342315055, 0.5340920923902388, 26.216832869978475)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (-154.10297332234495, -429.61064388132945, 14.00924709905243)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+
+                        over "FloodLights"
+                        {
+                            over "FloodLight_A"
+                            {
+                                color3f color = (0.98455596, 0.9713026, 0.9047271)
+                                float intensity = 500
+                                double3 xformOp:rotateXYZ = (3.1704654076502834, -0.029729194782390778, 0.7569280834743495)
+                                double3 xformOp:scale = (1.2, 1, 1)
+                                double3 xformOp:translate = (170.93788775307257, -267.005825946389, 29.899177976001283)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "FloodLight_B"
+                            {
+                                color3f color = (0.9545406, 1, 0.83397686)
+                                float height = 18
+                                float intensity = 1500
+                                float width = 18
+                                double3 xformOp:rotateXYZ = (0.9213966475933262, 45, 0.7575116481986583)
+                                double3 xformOp:scale = (0.9999999403953552, 0.9999675154685974, 1.0000327825546265)
+                                double3 xformOp:translate = (339.8165338117824, -238.5758047255356, -99.54551893102868)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "FloodLight_D"
+                            {
+                                color3f color = (0.992278, 0.91809475, 0.7662378)
+                                float intensity = 5000
+                                double3 xformOp:rotateXYZ = (38.94281904603301, 8.395658987003031, 13.634228740797738)
+                                double3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (336.299905128777, 72.98779616084926, -87.89999816566706)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+
+                            over "FloodLight_E"
+                            {
+                                color3f color = (0.996139, 0.964212, 0.80383414)
+                                float intensity = 4000
+                                double3 xformOp:rotateXYZ = (-16.56414832874364, 10.727378229613976, -5.668531871618939)
+                                double3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (-342.05404266459664, -110.40002194046974, -91.09421144993223)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+
+                        over "Suit_Backlight"
+                        {
+                            float intensity = 0
+                        }
+
+                        over "SuitCase_Overhead"
+                        {
+                            float intensity = 40
+                        }
+
+                        over "TankB"
+                        {
+                            color3f color = (0.9843137, 0.31764707, 0)
+                            float intensity = 80
+                        }
+
+                        over "TankA"
+                        {
+                            color3f color = (0.98455596, 0.31931543, 0)
+                            float intensity = 80
+                        }
+
+                        over "ChargerPlug"
+                        {
+                            float intensity = 200
+                        }
+
+                        over "DeskLamp"
+                        {
+                            float intensity = 2500
+                        }
+                    }
+                }
+            }
+        }
+
+
+        over "mesh_6203D6E8B637C008" (
+            references = None
+        )
+        {
+        }
+    }
+
+    over "lights"
+    {
+        over "light_BCFB47EA2CA71216"
+        {
+            float intensity = 0
+        }
+
+        over "light_2FA9A7EEDD5AEBD7"
+        {
+            float intensity = 0
+        }
+
+        over "light_1056C513EDECBFEB"
+        {
+            float intensity = 0
+            float3 xformOp:rotateZYX = (0, -90, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-7023.759244376993, -1772.2499999999525, 219.99999999999406)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_AC8A594DDEB02693"
+        {
+            float intensity = 0
+        }
+
+        over "light_98C89BE40DE323AE"
+        {
+            float intensity = 0
+        }
+
+        over "light_4639B1D2B7A40C83"
+        {
+            float intensity = 0
+        }
+
+        over "light_C2C812B1EAF4CABF"
+        {
+            float intensity = 0
+        }
+
+        over "light_A969B0346D848756"
+        {
+            float intensity = 0
+        }
+
+        over "light_136FA7CA0B07CF5D"
+        {
+            float intensity = 100
+        }
+
+        over "light_4D2E974205F0DF7C"
+        {
+            float intensity = 100
+        }
+
+        over "light_D2ED7048436183D1"
+        {
+            color3f color = (1, 0.8552638, 0.4864865)
+            bool enableColorTemperature = 0
+            float intensity = 750
+            float3 xformOp:rotateZYX = (90, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6483.9475729054375, -1624.6424722175461, 74.78974025169134)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_3196F1A90134013A"
+        {
+            float intensity = 0
+        }
+
+        over "light_C1DAE2B8047E8813"
+        {
+            float intensity = 0
+            float radius = 10
+            float3 xformOp:rotateZYX = (0, -90, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-7023.890237283542, -1844, 248)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_9132D07957992EED"
+        {
+            float intensity = 0
+        }
+
+        over "light_D72624B7E6F47D1F"
+        {
+            float intensity = 0
+        }
+
+        over "light_12ED542E91257C40"
+        {
+            float intensity = 0
+        }
+
+        over "light_77B415EFB1537F69"
+        {
+            float intensity = 0
+        }
+
+        over "light_1AFECDF7A237A392"
+        {
+            color3f color = (1, 0.977479, 0.9034749)
+            float intensity = 0
+            float3 xformOp:rotateZYX = (3.5976698, 12.591705, -5.257346)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6730.961468176472, -1259.9681098255357, 168.15984572339337)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_6778172C01E43D1C"
+        {
+            color3f color = (0.98841697, 0.97327995, 0.9235402)
+            float exposure = 0
+            float intensity = 0
+            float3 xformOp:rotateZYX = (4.243092, -7.342283, -0.99418277)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6593.527390633325, -1284.32892864961, 172.78987052283784)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_DE511E821CD533A5"
+        {
+            color3f color = (0.980695, 0.96408415, 0.9352574)
+            float intensity = 0
+            float3 xformOp:rotateZYX = (0, 8.26326, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6559.701274100867, -1405.5465115164882, 168.92013722792802)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_C21D235BD6500832"
+        {
+            color3f color = (0.6436994, 0.980695, 0.9767916)
+            float intensity = 0
+            float radius = 6
+            float3 xformOp:rotateZYX = (0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6883.858063669818, -1933.2332396843735, 289.26257239480697)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_3B2334C0A6CD6C99"
+        {
+            color3f color = (0.996139, 0.9019349, 0.7384505)
+            float intensity = 27
+        }
+
+        over "light_99BA08FB2089CAAA"
+        {
+            color3f color = (1, 0.96210164, 0.7717284)
+            float intensity = 3000
+            float3 xformOp:rotateZYX = (20.73405, -14.560501, -1.5844353)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (-6366.89013671875, -1289.7099609375, 124.41600036621094)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_0F34DE79EC842DDD"
+        {
+            color3f color = (1, 0.98297644, 0.6254826)
+            float intensity = 20
+        }
+
+        over "light_B6489C688B7541B7"
+        {
+            float intensity = 2000
+        }
+    }
+
+    over "Looks"
+    {
+    }
+}
+

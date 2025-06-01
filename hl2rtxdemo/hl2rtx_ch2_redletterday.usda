@@ -1,0 +1,13 @@
+#usda 1.0
+(
+    subLayers = [
+        @./hl2rtx_ch2_redletterday_lights.usda@,
+        @./hl2rtx_ch2_redletterday_props.usda@,
+        @./hl2rtx_ch2_redletterday_textures.usda@,
+        @./hl2rtx_ch2_redletterday_decals.usda@,
+        @./hl2rtx_ch2_redletterday_skinned.usda@,
+        @./hl2rtx_ch2_redletterday_particles.usda@
+    ]
+    upAxis = "Z"
+)
+

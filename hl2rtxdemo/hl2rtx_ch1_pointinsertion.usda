@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [
+        @./hl2rtx_ch1_pointinsertion_props.usda@,
+        @./hl2rtx_ch1_pointinsertion_textures.usda@,
+        @./hl2rtx_ch1_pointinsertion_decals.usda@,
+        @./hl2rtx_ch1_pointinsertion_skinned.usda@,
+        @./hl2rtx_ch1_pointinsertion_lights.usda@
+    ]
+    upAxis = "Z"
+)
+

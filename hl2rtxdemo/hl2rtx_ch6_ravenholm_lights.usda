@@ -1,0 +1,2930 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_789597E9B5C5B950" (
+            references = None
+        )
+        {
+        }
+    }
+
+    over "lights"
+    {
+        over "light_4135EEDB44CD11DA"
+        {
+            color3f inputs:color = (1, 0.9217858, 0.33976835)
+            float inputs:exposure = 10
+            float inputs:intensity = 48
+            float inputs:shaping:cone:angle = 65
+            float inputs:shaping:cone:softness = 2
+            float3 xformOp:rotateZYX = (9.999998, 3.7843054e-7, -3.3108375e-8)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (4385, -2532.89990234375, -3625.2099609375)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_C5B57A71C59B7150"
+        {
+            color3f inputs:color = (0.35521233, 1, 0.7871654)
+            float inputs:exposure = 10
+            float inputs:intensity = 0
+            float inputs:shaping:cone:angle = 44
+            float inputs:shaping:cone:softness = 0.25
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.348, 1, 0.769)
+                float inputs:exposure = 6
+                float inputs:intensity = 30
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 50
+                float inputs:shaping:cone:softness = 0.8
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-1.8189894035458565e-12, 0, -2.577120238733187)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_D600017A07D3775A"
+        {
+            color3f inputs:color = (1, 0.9309334, 0.41698843)
+            float inputs:exposure = 10
+            float inputs:intensity = 95
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_EF116A71349D76C7"
+        {
+            color3f inputs:color = (1, 0.75172937, 0.41698843)
+            float inputs:exposure = 10
+            float inputs:intensity = 5
+            float inputs:shaping:cone:softness = 2
+        }
+
+        over "light_764ABD0C5A6B7161"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 8
+            float inputs:shaping:cone:softness = 2
+        }
+
+        over "light_596D6807E50F9BCA"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 30
+            float inputs:shaping:cone:angle = 55
+            float inputs:shaping:cone:softness = 2
+        }
+
+        over "light_8F33E6A8BE38521D"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 78
+            float inputs:shaping:cone:angle = 61
+            float inputs:shaping:cone:softness = 1.3
+        }
+
+        over "light_9ADB9849B67B1735"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 165
+            float inputs:shaping:cone:angle = 48
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_FE9BA258D87CBA61"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 23
+            float inputs:shaping:cone:angle = 55
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_4C92EC05A5D27E1B"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 165
+            float inputs:shaping:cone:angle = 48
+            float inputs:shaping:cone:softness = 1.5
+
+            def RectLight "RectLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-0.5, -0.5, -0), (0.5, 0.5, 0)]
+                color3f inputs:color = (0.41568628, 1, 0.80784315)
+                float inputs:exposure = 10
+                float inputs:height = 6
+                float inputs:intensity = 5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 300
+                double3 xformOp:rotateXYZ = (-122.30445450077661, 9.0810917084996, 36.42762258737221)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-120.43598340768551, -131.4999428187548, -198.5786851552275)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_32FD583043A4D1B4"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 24
+            float inputs:shaping:cone:angle = 55
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_6C32CA62837EC762"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 115
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_9ADCFEE5454E0EBC"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 50
+            float inputs:shaping:cone:angle = 48
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_B19C7464E21C3AE3"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 45
+        }
+
+        over "light_4405561F2D408E21"
+        {
+            float inputs:exposure = 0
+            float inputs:intensity = 0
+            float inputs:shaping:cone:angle = 60
+            float inputs:shaping:cone:softness = 1.5
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.41, 1, 0.76)
+                float inputs:exposure = 4
+                float inputs:intensity = 500
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:volumetric_radiance_scale = 0.25 (
+                    doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.
+This can be used to enhance the god-rays coming from this light.
+Not physically accurate."""
+                )
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.7284841053187847e-12, 0, -2.3406631229995583)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_0A7693EA883D9CBF"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 60
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_779AFF571272D101"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 27
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_67B0C210AE85468E"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 220
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_176348A9FA92EF95"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 12
+        }
+
+        over "light_9F9533E053468451"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 30
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_C821B9FAC45412E8"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 32
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_957EB47D8E59CE31"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 120
+            float inputs:shaping:cone:softness = 0.2
+        }
+
+        over "light_083DB7D6ABA00B4D"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 30
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_340B2840ACEE8A02"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 32
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_F37D25A11AC5F9A9"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 45
+            float inputs:shaping:cone:angle = 50
+            float inputs:shaping:cone:softness = 0.5
+        }
+
+        over "light_52CEF4C51887E7E1"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 91
+            float inputs:shaping:cone:softness = 0.5
+        }
+
+        over "light_4C24539243320338"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 32
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_50E4CF5077605E9C"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 80
+            float inputs:shaping:cone:softness = 0.1
+        }
+
+        over "light_08A8F0118A11ED17"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 32
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_28E8B01FD229CEE9"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 25
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_E5EF7EBB8CFD3969"
+        {
+            float inputs:exposure = 10
+            float inputs:intensity = 32
+            float inputs:shaping:cone:softness = 1.5
+        }
+
+        over "light_938C656E0C875428"
+        {
+            color3f inputs:color = (0.50383866, 1, 0.82565945)
+            float inputs:exposure = 10
+            float inputs:intensity = 32
+            float inputs:shaping:cone:angle = 65
+            float inputs:shaping:cone:softness = 2
+            float3 xformOp:rotateZYX = (0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (4275, -1369.8499755859375, -3726)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+        }
+
+        over "light_30A825C94F866891"
+        {
+            float inputs:exposure = 0
+            float inputs:intensity = 0
+            matrix4d xformOp:transform = ( (1, 5.778501607636847e-10, -6.604858718276413e-9, 0), (5.778501607636846e-10, 0.9848077582970386, 0.1736481476951637, 0), (6.604858718276413e-9, -0.17364814769516373, 0.9848077582970387, 0), (4385, -2532.89990234375, -3627.2099609375, 1) )
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.86291087, 0.398)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 58
+                float inputs:shaping:cone:softness = 2
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-9.367424375035426, -1.0435314834467135e-8, -6.115374162618537e-8)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (7.275957614183426e-12, -0.186463442690183, -1.7105454294019182)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_D2E1AC9A4E42EAB5"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.485, 1, 0.84193075)
+                float inputs:intensity = 110
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 60
+                float inputs:shaping:cone:softness = 1.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:volumetric_radiance_scale = 10 (
+                    doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.
+This can be used to enhance the god-rays coming from this light.
+Not physically accurate."""
+                )
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (0.485, 1, 0.84193075)
+                float inputs:intensity = 1
+                float inputs:radius = 9
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (90, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 7.221886097210245)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_F6A857D7FD1188B8"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.86473244, 0.40600002)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 60
+                float inputs:shaping:cone:softness = 1.5
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (3.001332515850663e-11, 4.320099833421409e-12, -1.0081539474381316)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_B06E90A68A1CD87A"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.83624935, 0.375)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 20
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.2737367544323206e-12, -9.094947017729282e-13, -4.851940849343009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.83624935, 0.375)
+                float inputs:exposure = 2
+                float inputs:intensity = 10
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.547473508864641e-13, -3.183231456205249e-12, -0.21336776492216813)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_B7D08EFBF649305F"
+        {
+            color3f inputs:color = (1, 0.7444953, 0.39999998)
+            float inputs:intensity = 0
+            float inputs:radius = 2.5
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (3943, -1089, -3656.835246991934, 1) )
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.8590733, 0.5)
+                float inputs:intensity = 250
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 72
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -5.89)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_F1A783FFA3D623E1"
+        {
+            color3f inputs:color = (1, 0.7444953, 0.39999998)
+            float inputs:intensity = 0
+            float inputs:radius = 2.5
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.8590733, 0.5)
+                float inputs:exposure = 0
+                float inputs:intensity = 250
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 72
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -5.8993579358379975)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_58035E22D3E7A73E"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.83624935, 0.375)
+                float inputs:exposure = 4
+                float inputs:intensity = 40
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.8189894035458565e-12, -1.8189894035458565e-12, -3.7993966366910854)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.83624935, 0.375)
+                float inputs:exposure = 1
+                float inputs:intensity = 5
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 70
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (5.4569682106375694e-12, -3.183231456205249e-12, -1.049376916871438)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_5899A0CB517CF179"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35900003, 1, 0.803854)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 20
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.1373125491663814e-11, 0, -2.14069872238224)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_C9214990A738285A"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8309413, 0.38300002)
+                float inputs:exposure = 7
+                float inputs:intensity = 25
+                float inputs:radius = 7
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 1.3000001
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.092726157978177e-12, 6.821210263296962e-13, -0.5920580579531816)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_02" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.75, 0.91, 0.97)
+                float inputs:height = 50
+                float inputs:intensity = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 75
+                double3 xformOp:rotateXYZ = (89.15969304089379, -139.9323832537375, -90.05212888837167)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-64.31701309117216, -305.3003849549257, -122.48538821708462)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_03" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.75, 0.91, 0.97)
+                float inputs:height = 50
+                float inputs:intensity = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 75
+                double3 xformOp:rotateXYZ = (89.15969304089379, -139.9323832537375, -90.05212888837167)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-64.22720561575716, -206.59143392121905, -39.460003569344735)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_04" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.75, 0.91, 0.97)
+                float inputs:height = 50
+                float inputs:intensity = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 75
+                double3 xformOp:rotateXYZ = (89.15969304089379, -139.9323832537375, -90.05212888837167)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-64.13768500571996, -108.19778159331167, 43.300179229395326)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_6A8BFDD2C9028739"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.83624935, 0.375)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 20
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.2737367544323206e-12, -9.549694368615746e-12, -1.62589120263101)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_3EE7DE3E7BFC93AD"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 25
+                float inputs:radius = 7
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 1.3000001
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.75, 0.91, 0.97)
+                float inputs:height = 50
+                float inputs:intensity = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 75
+                double3 xformOp:rotateXYZ = (-89.12333170729738, -40.3364148174835, -0.9693432982751631)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-92.74402254751294, 174.00034181956516, 33.04574926416831)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.75, 0.91, 0.97)
+                float inputs:height = 50
+                float inputs:intensity = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 75
+                double3 xformOp:rotateXYZ = (-89.12333170729738, -40.3364148174835, -0.9693432982751631)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-189.75700632298094, 174.0003440734647, -48.357800776710974)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_02" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.75, 0.91, 0.97)
+                float inputs:height = 50
+                float inputs:intensity = 100
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 75
+                double3 xformOp:rotateXYZ = (-89.12333170729738, -40.3364148174835, -0.9693432982751631)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-287.21245960196075, 174.0003463376488, -130.1326267743632)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_60E32FD73F25E19C"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.40600002, 1, 0.7612119)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 20
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 33
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:volumetric_radiance_scale = 0.5 (
+                    doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.
+This can be used to enhance the god-rays coming from this light.
+Not physically accurate."""
+                )
+                double3 xformOp:rotateXYZ = (1.1207703919057224, 0.4580929532467337, 1.7136410778086315)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (3.183231456205249e-12, -3.637978807091713e-12, -2.072630243681033)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_ACB73DC77D4DC5C8"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35521233, 1, 0.7871654)
+                float inputs:exposure = 8
+                float inputs:intensity = 20
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:volumetric_radiance_scale = 0.25 (
+                    doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.
+This can be used to enhance the god-rays coming from this light.
+Not physically accurate."""
+                )
+                double3 xformOp:rotateXYZ = (12.8957482301644, 9.080954273420645, 9.810231760607309)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.04652756826226323, 0.04752746288613707, -1.1529874002374072)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_8EC60F17B9041CD2"
+        {
+            float inputs:intensity = 0
+            matrix4d xformOp:transform = ( (0.7817164698333916, 0.0584888788330758, -0.6208851841073919, 0), (0.05848887883307592, 0.9843279566509707, 0.16636563589928804, 0), (0.6208851841073919, -0.1663656358992881, 0.7660444264843623, 0), (764.6539916992188, -946.8350219726562, -3343.360107421875, 1) )
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 7
+                float inputs:intensity = 20
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 40
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (12.066261480512651, 4.52422187963262, 0.7079927510678772)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.15958163386449087, 0.41654343157870244, -2.4978373581250253)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 5
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (12.066261480512651, 4.52422187963262, 0.7079927510678772)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.009492463000242424, 0.024777432190376203, -0.11608636287269292)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_EE32538650F3362B"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 100
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 40
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.547473508864641e-12, -2.5011104298755527e-12, -2.5076209058131553)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 25
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 60
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_683266618F66D5F4"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.40600002, 1, 0.7612119)
+                float inputs:exposure = 7
+                float inputs:intensity = 25
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 33
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_DA27116800403908"
+        {
+            color3f inputs:color = (0.94, 0.82, 0.61)
+            float inputs:shaping:cone:angle = 30
+            float inputs:shaping:cone:softness = 0.2
+            float inputs:volumetric_radiance_scale = 10 (
+                doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.\r\r
+This can be used to enhance the god-rays coming from this light.\r\r
+Not physically accurate."""
+            )
+            matrix4d xformOp:transform = ( (0.6049158974091482, -0.5060395060934935, 0.6148176764979503, 0), (-0.4279518873579441, 0.44451885226203414, 0.7869308559780955, 0), (-0.6715161495961649, -0.7391393699812623, 0.05233595872098064, 0), (401.3039855957031, -870.4910278320312, -3241.3701171875, 1) )
+        }
+
+        over "light_CFF890BBE8D76C35"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 4
+                float inputs:intensity = 20
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.318767317570746e-11, -2.2737367544323206e-12, -3.504255231023535)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 2
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 80
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_3910E23EF6FE083B"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.41, 1, 0.76)
+                float inputs:exposure = 4
+                float inputs:intensity = 20
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.25
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-21.15874075152169, 22.596321369391262, -2.7441250164133635)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.41, 1, 0.76)
+                float inputs:exposure = 2
+                float inputs:intensity = 5
+                float inputs:radius = 7
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_F12970C8E1F581E4"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.9157501, 0.28881598)
+                float inputs:exposure = 2
+                float inputs:intensity = 25
+                float inputs:radius = 7
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 0.25
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (26.403119847397505, -12.959562752343942, 83.64682574317874)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.7287093788399943, 1.6177759747229175, -6.625100518972431)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.9157501, 0.28881598)
+                float inputs:exposure = 1
+                float inputs:intensity = 4
+                float inputs:radius = 7
+                float inputs:shaping:cone:angle = 90
+                float inputs:shaping:cone:softness = 0.4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (16.410410288123046, 1.0525392246922536, 87.84227261241949)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-0.47921082422180916, 0.28411078301405723, -1.9469781395823702)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_97C3D1EDC0A6F8F1"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 200
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.3642420526593924e-12, 4.547473508864641e-13, -4.8548293358444425)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 25
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_9F0C59558D2A9C76"
+        {
+            float inputs:exposure = 0
+            float inputs:intensity = 0
+            float inputs:volumetric_radiance_scale = 1 (
+                doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.\r\r
+This can be used to enhance the god-rays coming from this light.\r\r
+Not physically accurate."""
+            )
+            matrix4d xformOp:transform = ( (0.6249999978966931, -0.21650634827454834, 0.7500000025239686, 0), (-0.21650634827454776, 0.8750000037859558, 0.43301269557762123, 0), (-0.7500000025239688, -0.4330126955776208, 0.500000001682649, 0), (-410.58499145508, 1041.2199707031264, -3306.3309324474335, 1) )
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35521233, 1, 0.7871654)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 100
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-5.4569682106375694e-12, 6.252776074688882e-13, -1.117778695034076)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_034D9D9A40ADD4EC"
+        {
+            float inputs:intensity = 0
+            float inputs:volumetric_radiance_scale = 1 (
+                doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.\r\r
+This can be used to enhance the god-rays coming from this light.\r\r
+Not physically accurate."""
+            )
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35521233, 1, 0.8)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 200
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (5.357143355714243, -10.19476449241256, -5.924852531122042)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_E7027CDF83AD5109"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 5
+                float inputs:intensity = 100
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.8189894035458565e-12, 1.8189894035458565e-12, -2.581574868289863)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_169E47C81092F9BE"
+        {
+            float inputs:volumetric_radiance_scale = 10 (
+                doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.\r\r
+This can be used to enhance the god-rays coming from this light.\r\r
+Not physically accurate."""
+            )
+        }
+
+        over "light_CF0AE6B391AFBF4D"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 30
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-1.8189894035458565e-12, -2.2737367544323206e-13, -3.633849039909819)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_212E2AB100F33A75"
+        {
+            float inputs:intensity = 0
+            float inputs:shaping:cone:angle = 45
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 50
+                float inputs:shaping:cone:softness = 2
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:volumetric_radiance_scale = 4 (
+                    doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.
+This can be used to enhance the god-rays coming from this light.
+Not physically accurate."""
+                )
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -3.701512188134984)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_B361CD0DE865AD63"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 4
+                float inputs:intensity = 100
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.7284841053187847e-12, -1.3293797903006634, -4.5648378477100096)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 50
+                float inputs:intensity = 50
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 25
+                double3 xformOp:rotateXYZ = (219.1430775467656, -54.871947688071856, -153.5349029976028)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-171.84965228588953, -293.55499729936537, -148.28801581730852)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 50
+                float inputs:intensity = 50
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 25
+                double3 xformOp:rotateXYZ = (219.1430775467656, -54.871947688071856, -153.5349029976028)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-195.65585961680245, -306.9459357715202, -110.0395222606661)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 50
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-3.183231456205249e-12, -1.3293797903013456, -1.5707291740899336)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_61ACE2DDED9D420C"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35521233, 1, 0.7871654)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 40
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-9.094947017729282e-13, -4.092726157978177e-12, -3.9166023304946975)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_F3CD4E66927F64CA"
+        {
+            float inputs:intensity = 300
+            float inputs:volumetric_radiance_scale = 5 (
+                doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.\r\r
+This can be used to enhance the god-rays coming from this light.\r\r
+Not physically accurate."""
+            )
+        }
+
+        over "light_905A42804F76719E"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 1000
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 34.999996
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 95
+                float inputs:intensity = 50
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 45
+                double3 xformOp:rotateXYZ = (145.24926177069744, 53.77369753971888, 121.6513797182397)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (137.33745751200013, -94.71864826276146, -478.6276023851888)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 95
+                float inputs:intensity = 50
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 45
+                double3 xformOp:rotateXYZ = (145.24926177069744, 53.77369753971888, 121.6513797182397)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (210.42988009871078, -224.66124267731016, -269.85399747862215)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_02" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 63
+                float inputs:intensity = 75
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 45
+                double3 xformOp:rotateXYZ = (37.06858615733694, -56.08080617880151, 298.7886393995899)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (133.28390356248565, 51.18531170046617, -71.29545994918061)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_03" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 63
+                float inputs:intensity = 75
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 45
+                double3 xformOp:rotateXYZ = (37.06858615733694, -56.08080617880151, 298.7886393995899)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (96.76604483366464, 115.93896934074473, -175.49986830760923)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_04" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 95
+                float inputs:intensity = 50
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 45
+                double3 xformOp:rotateXYZ = (156.45385645277247, -27.15681545626137, 161.6137649153502)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-248.6204755531412, 60.720624492035085, -318.272189913027)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_05" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 95
+                float inputs:intensity = 50
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 45
+                double3 xformOp:rotateXYZ = (37.51384541707219, -55.175920961342854, 296.90899437190376)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-208.20248609653072, -81.92828469602432, -34.37923643451916)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_A61B9A1576273793"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.45, 1, 0.8184534)
+                float inputs:exposure = 5
+                float inputs:intensity = 5
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.15
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-2.88083247632116, -2.305334082989333, 33.88164210154841)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (5.185227270489349, -0.24452179823947517, 7.954945394300466)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.45, 1, 0.8184534)
+                float inputs:exposure = 5
+                float inputs:intensity = 1
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 40
+                float inputs:shaping:cone:softness = 0
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (-4.325179289403309, -6.42895808119377, 16.802733448209153)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-11.873937015142474, -4.200888692434091, -11.872391658413108)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_88724717F5081C45"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.45, 1, 0.8184534)
+                float inputs:exposure = 1
+                float inputs:intensity = 100
+                float inputs:radius = 16
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.15
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-7.275957614183426e-12, -9.094947017729282e-13, -1.6366082990630275)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 85
+                float inputs:intensity = 10
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 60
+                double3 xformOp:rotateXYZ = (60.746438568712136, 12.08091123042405, 189.03536734694092)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (14.129646664429856, 190.9647301364662, -559.7901816140325)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.6666, 0.89, 0.96)
+                float inputs:height = 85
+                float inputs:intensity = 10
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 10
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 60
+                double3 xformOp:rotateXYZ = (60.746438568712136, 12.08091123042405, 189.03536734694092)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-55.006247876246334, 179.97092936314039, -574.7734615182885)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_804F227489EADA00"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.45, 1, 0.8184534)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 30
+                float inputs:shaping:cone:softness = 0.07366723
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_334CBD405549550A"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 34.999996
+                float inputs:shaping:cone:softness = 0.12054056
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-3.183231456205249e-12, -2.7284841053187847e-12, -0.26779409733421744)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_3BC3A2AFB764C4DF"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.9157501, 0.28881595)
+                float inputs:intensity = 10000
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, -7.439029222177055, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0.4955786390037247, 0.5495157239715809, -3.5454593746851515)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_81BC124D5B07D632"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.9157501, 0.28881595)
+                float inputs:intensity = 1500
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 39.999996
+                float inputs:shaping:cone:softness = 0.17364818
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_43B395AA100FD921"
+        {
+            float inputs:intensity = 100000
+            float inputs:radius = 2
+            float inputs:shaping:cone:angle = 38
+        }
+
+        over "light_18ADDA281DFEC930"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 34.999996
+                float inputs:shaping:cone:softness = 0.12054056
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.2737367544323206e-13, 8.640199666842818e-12, -1.1860628728943539)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_ECC1BC591CCB75FC"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35521233, 1, 0.7871654)
+                float inputs:intensity = 3000
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 34.999996
+                float inputs:shaping:cone:softness = 0.12054056
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-1.1368683772161603e-12, 2.2737367544323206e-12, -0.431127262611426)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_EEED3DE7AC16BFA1"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 34.999996
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-6.821210263296962e-12, -7.275957614183426e-12, -2.1371343681594226)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_9CB70B851BFC1DF8"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-1.1368683772161603e-12, 3.183231456205249e-12, -2.066505276272437)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 20
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 70
+                float inputs:shaping:cone:softness = 0.75
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_CC03273B4BE057F0"
+        {
+            float inputs:intensity = 0
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 200
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 2.9558577807620168e-12, 1.3058323203076725)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 600
+                float inputs:radius = 3
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 4.839181113451559)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_86CCAB053EE58C61"
+        {
+            float inputs:intensity = 0
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 200
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -4.831690603168681e-13, 1.611390122398916)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 600
+                float inputs:radius = 3
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 5.190672314518906)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_8D07926A2BE5752C"
+        {
+            float inputs:intensity = 0
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 200
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 1.3064133397047044)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 600
+                float inputs:radius = 3
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 5.099154460517639)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_24A0677A0AC5F8F7"
+        {
+            float inputs:intensity = 0
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 200
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180, 0, 90)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.0459189070388675e-11, 0, 1.445034382634276)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 600
+                float inputs:radius = 3
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 4.5447646197103495)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_7B81F303585A21BB"
+        {
+            float inputs:intensity = 0
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 200
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (5.002220859751105e-12, 6.252776074688882e-13, 1.5264012113702847)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 600
+                float inputs:radius = 3
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 5.000958612178238)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_CEFBE919A1EDF7D3"
+        {
+            float inputs:intensity = 0
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 200
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 1.8124601009876642)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 600
+                float inputs:radius = 3
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 4.536888932968395)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_73DB1383818E24C7"
+        {
+            float inputs:intensity = 0
+
+            def SphereLight "SphereLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -5), (5, 5, 5)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 200
+                float inputs:radius = 2.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 4
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (180, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 1.7451744213535676)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.7581395, 0.35000002)
+                float inputs:intensity = 600
+                float inputs:radius = 3
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 4.573025914079153)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_82B83CFFC8AF65C0"
+        {
+            float inputs:intensity = 0
+
+            def RectLight "RectLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.120000005, 0.17544572, 0.2)
+                float inputs:exposure = 0
+                float inputs:height = 81.76191
+                float inputs:intensity = 0.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 0
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 40.542343
+                double3 xformOp:rotateXYZ = (59.37140664481106, 26.49833943431608, 82.55036913391933)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-101.30819337703156, -160.8896570192577, -32.18010399707737)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def RectLight "RectLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.120000005, 0.17544572, 0.2)
+                float inputs:height = 81.76191
+                float inputs:intensity = 0.5
+                float inputs:shaping:cone:angle = 180
+                float inputs:shaping:cone:softness = 0
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:width = 40.542343
+                double3 xformOp:rotateXYZ = (59.37140664481106, 26.49833943431608, 82.55036913391933)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-116.24962274733616, -273.6770111519887, 25.875111709421162)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 7
+                float inputs:intensity = 20
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.0463630789890885e-12, 4.547473508864641e-13, -2.2376044170423484)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 5
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_7B7D05F38D5879D9"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 20
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 40
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus = 0
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_9A290188DA8BF394"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 20
+                float inputs:radius = 7
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_7D282F99023B7204"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 20
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 40
+                float inputs:shaping:cone:softness = 0.25
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.547473508864641e-13, -1.8189894035458565e-12, -2.773929243393013)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 1
+                float inputs:radius = 5
+                float inputs:shaping:cone:angle = 60
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, -2.5011104298755527e-12, -0.4058476696100115)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_B5FD40F4BF32FC8D"
+        {
+            float inputs:intensity = 0
+            float inputs:shaping:cone:angle = 45
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.40600002, 1, 0.7612119)
+                float inputs:exposure = 5.5
+                float inputs:intensity = 20
+                float inputs:radius = 10
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.2
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.320099833421409e-12, -3.183231456205249e-12, -3.0734732210364655)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_4CDC6E732129E85F"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 5
+                float inputs:intensity = 20
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.1368683772161603e-12, 4.547473508864641e-13, -3.0570498979288914)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 2
+                float inputs:intensity = 10
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 70
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-2.2737367544323206e-13, 2.2737367544323206e-12, -0.7891744830996004)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_07F7B87CC30A0F30"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 25
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 60
+                float inputs:shaping:cone:softness = 0.25
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (8.526512829121202e-14, -1.8189894035458565e-12, -0.42282523692574614)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_64A676E63C7D0271"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 200
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.3
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.547473508864641e-12, 1.5845103007450234e-12, -3.352178627170588)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 25
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 60
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (3.183231456205249e-12, 6.750155989720952e-13, -0.8935878108375164)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_36E21960F68165E1"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 3
+                float inputs:intensity = 25
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 60
+                float inputs:shaping:cone:softness = 0.25
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.984279490192421e-13, 1.3642420526593924e-12, -0.9514534697154886)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_65833705555B3CA1"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 30
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                float inputs:volumetric_radiance_scale = 0.1 (
+                    doc = """Multiplies how bright this light seems to volumetric mediums like fog or suspended dust.
+This can be used to enhance the god-rays coming from this light.
+Not physically accurate."""
+                )
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (3.637978807091713e-12, -2.7284841053187847e-12, -4.447857025757912)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 20
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 70
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-4.547473508864641e-13, -4.547473508864641e-13, -0.4220371226651878)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_688939839211D675"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35521233, 1, 0.7871654)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 2
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -1.9145045511509124)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_B6F09FFA6C6E2EDF"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 30
+                float inputs:shaping:cone:softness = 0.12054056
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (-9.094947017729282e-12, -9.094947017729282e-13, -1.572883527688191)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_B9C781573497D7A8"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (0.35521233, 1, 0.7871654)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 2
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 1.6703539016807554)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_99636CBE9141D897"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.84, 0.38)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 1
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_90E1D707F03CE031"
+        {
+            color3f inputs:color = (1, 0.8193548, 0.3)
+        }
+
+        over "light_E5CB82C3B0C0B75E"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (2.7284841053187847e-12, -6.821210263296962e-13, -1.414205010401929)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_49E23B57E529E0A1"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 45
+                float inputs:shaping:cone:softness = 0.25881904
+                float inputs:shaping:focus = 1
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 24.47607938233395, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -8.44291637175138)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 100
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 75
+                float inputs:shaping:cone:softness = 2
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_352D5EB0C9596823"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 35
+                float inputs:shaping:cone:softness = 0.12054056
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (1.3642420526593924e-12, 5.9117155615240335e-12, -2.26019522634806)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_7C7B751808F40515"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 8
+                float inputs:shaping:cone:angle = 55
+                float inputs:shaping:cone:softness = 2
+                float inputs:shaping:focus = 0.5
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_3443E71A8A36EE6F"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 30
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (5.4569682106375694e-12, -4.547473508864641e-12, -3.227862176611552)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 20
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 70
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.547473508864641e-13, -1.8189894035458565e-12, -0.5813082597787798)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "light_19067F3DDAF8A598"
+        {
+            float inputs:intensity = 0
+
+            def DiskLight "DiskLight" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 500
+                float inputs:radius = 4
+                float inputs:shaping:cone:angle = 30
+                float inputs:shaping:cone:softness = 0.1
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (4.547473508864641e-12, 0, -4.44786)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            def DiskLight "DiskLight_01" (
+                prepend apiSchemas = ["ShapingAPI"]
+            )
+            {
+                float3[] extent = [(-5, -5, -0), (5, 5, 0)]
+                color3f inputs:color = (1, 0.8193548, 0.3)
+                float inputs:exposure = 1
+                float inputs:intensity = 20
+                float inputs:radius = 6
+                float inputs:shaping:cone:angle = 70
+                float inputs:shaping:cone:softness = 0.5
+                float inputs:shaping:focus
+                color3f inputs:shaping:focusTint
+                asset inputs:shaping:ies:file
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, -0.42204)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+    }
+}
+

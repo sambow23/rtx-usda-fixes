@@ -1,0 +1,122 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_A1A34E2683C770A6"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day01_09up.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_8D848E7D19E2FD0D"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day01_09dn.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_3467072B5448319F"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day01_09lf.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_B98FAEC838E441EA"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day01_09rt.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_E36CCBF4B2EBCD22"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day01_09ft.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_2BC19B8696FB3D7A"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day01_09bk.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+
+
+
+        over "mat_26E826B85AD93738"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day02_09xup.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_4A8FA978F956E962"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day02_09xdn.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_EEC43D2732F17A9D"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day02_09xlf.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_ED54729BAF88A228"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day02_09xrt.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_5D2AAA6FE89EEF3E"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day02_09xft.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+        over "mat_6A7DC478CD5DF1E3"{over "Shader"{asset inputs:diffuse_texture = @./assets/skybox/sky_day02_09xbk.dds@ (colorSpace = "sRGB"
+        	customData = {asset default = @@}
+        	displayGroup = "Diffuse"
+		displayName = "HDR Map"
+		doc = "Skybox Cubemap Face Texture"
+		hidden = false
+		renderType = "texture_2d")
+		}
+	}
+    }
+}
