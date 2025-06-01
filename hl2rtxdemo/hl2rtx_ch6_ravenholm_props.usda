@@ -5578,11 +5578,41 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_102954E767AE31EC" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_D907AF1B4770E9EC" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_C41A522C668F0CA0" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_D7B35020A7A5BBD6" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_42184B9B3C5F3403" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_F6A1E70130F89AFF" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_946535CEEDC333FA" (
             references = None
@@ -12981,8 +13011,23 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_8C77971E7687D151" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_55E878F1995C643E" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_B0D5603F6165FE84" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_E7E27284D39A1757" (
             references = None
@@ -13986,6 +14031,11 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_1B503D092FF0F1C0" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_8960AF2524536986" (
             references = None
@@ -14146,6 +14196,11 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_5711A87D1A554BB4" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_67BD7E144F3D3CB9" (
             references = None
@@ -14306,6 +14361,11 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_21CA90030F54CB3B" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_FA19178BC0A226C7" (
             references = None
@@ -17184,7 +17244,17 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_2A1CCBEA999221C3" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_FD16DF6AA2AD6F4A" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_7C7CA8874D661B07" (
             references = None
@@ -21012,8 +21082,225 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_288B34B1E84F9017" (
+            references = None
+        )
+        {
+            def Xform "ref_0399dd7ec88b4b1b801f234c7468e5cf" (
+                prepend references = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/SM_Prop_BSPMesh_Town_04_Minecart.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
 
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_BSPmesh_Town_04_Minecart"
+                        {
+                            float3 xformOp:rotateXYZ = (90, 0, 0)
+                            float3 xformOp:scale = (0.01, 0.01, 0.01)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
 
+                        over "Looks"
+                        {
+                            over "SM_Prop_BSPmesh_Town_04_Minecart"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:metallic_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "SM_Prop_BSPmesh_Town_04_Minecart_Armor"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:metallic_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Armor_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_93528EB1C8D939D7" (
+            references = None
+        )
+        {
+            def Xform "ref_d459f3a868e84c71b27b49ae8865c144" (
+                prepend references = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/SM_Prop_BSPMesh_Town_04_Minecart.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "SM_Prop_BSPmesh_Town_04_Minecart"
+                        {
+                            float3 xformOp:rotateXYZ = (90, 0, -90)
+                            float3 xformOp:scale = (0.01, 0.01, 0.01)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+
+                        over "Looks"
+                        {
+                            over "SM_Prop_BSPmesh_Town_04_Minecart"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:metallic_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "SM_Prop_BSPmesh_Town_04_Minecart_Armor"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:metallic_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Armor_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_FCD884E86575FDE5" (
+            references = None
+        )
+        {
+            def Xform "ref_23cfcd6e68d24a80b44c8573fb56acae" (
+                prepend references = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/SM_Prop_BSPMesh_Town_04_Minecart_With_Wire.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "SM_Prop_BSPmesh_Town_04_Minecart"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:metallic_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "SM_Prop_BSPmesh_Town_04_Minecart_Armor"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:metallic_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Armor_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Sm"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:metallic_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Chicken_Wire_Metallic.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch6_ravenholm/models/SM_Prop_BSPmesh_Town_04_Minecart/textures/SM_Prop_BSPmesh_Town_04_Minecart_Chicken_Wire_Roughness.r.rtex.dds@ (
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         over "mesh_869F3DBE7821FB58" (
             references = None
@@ -24051,6 +24338,11 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_4B5868AB23CF50B2" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_C2F7889A14CC55A9" (
             references = None

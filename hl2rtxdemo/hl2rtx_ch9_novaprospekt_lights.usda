@@ -7,6 +7,19 @@ over "RootNode"
 {
     over "meshes"
     {
+        over "mesh_811BD1533D3EA080" (
+            references = None
+        )
+        {
+            def Xform "ref_21677ad0a430478985eb649ea73d6493"
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
 
     }
 

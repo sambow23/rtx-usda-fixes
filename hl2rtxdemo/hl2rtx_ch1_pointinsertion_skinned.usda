@@ -685,7 +685,899 @@ This parameter is unused.
 
     over "meshes"
     {
+        over "mesh_0D7CF8AA5C84F2A1" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_C143692B2EA4EC16" (
+            references = None
+        )
+        {
+            def Xform "ref_6d12d730e1e14bcf9943dd96222f31ad" (
+                prepend references = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/SK_Prop_Combine_APC.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    float3 xformOp:translate:pivot = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Under_3"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_3_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_3_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_3_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_3_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Under_2"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_2_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_2_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_2_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_2_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Under_1"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_1_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_1_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_1_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Under_1_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Plates_4"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_4_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_4_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_4_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_4_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Plates_3"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_3_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_3_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_3_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_3_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Plates_1"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_1_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_1_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_1_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_1_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Glass"
+                            {
+                                over "Shader"
+                                {
+                                    float inputs:ior_constant = 4 (
+                                        customData = {
+                                            float default = 1.3
+                                            dictionary range = {
+                                                float max = 3
+                                                float min = 1
+                                            }
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Index of Refraction"
+                                        doc = "Index of Refraction of the material"
+                                        hidden = false
+                                    )
+                                    float inputs:thin_wall_thickness = 8 (
+                                        customData = {
+                                            float default = 1
+                                            dictionary range = {
+                                                float max = 65504
+                                                float min = 0.001
+                                            }
+                                            dictionary soft_range = {
+                                                float max = 1
+                                                float min = 0.001
+                                            }
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Thin-walled material thickness"
+                                        doc = "Simulated thickness for thin-walled materials (0 disables thin-walled mode)"
+                                        hidden = false
+                                    )
+                                    bool inputs:thin_walled = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Thin-walled"
+                                        doc = "Whether the material is thin-walled"
+                                        hidden = false
+                                    )
+                                    color3f inputs:transmittance_color = (0.4285714, 0.24385652, 0.08439051) (
+                                        customData = {
+                                            float3 default = (0.97, 0.97, 0.97)
+                                            dictionary range = {
+                                                float3 max = (1, 1, 1)
+                                                float3 min = (0, 0, 0)
+                                            }
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Transmittance Color"
+                                        doc = "Expected transmittance after the specified transmittance distance through the volume."
+                                        hidden = false
+                                        renderType = "color"
+                                    )
+                                    float inputs:transmittance_measurement_distance = 5 (
+                                        customData = {
+                                            float default = 1
+                                            dictionary range = {
+                                                float max = 65504
+                                                float min = 0.001
+                                            }
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Transmittance Measurement Distance"
+                                        doc = "Distance to match the transmittance through the volume at."
+                                        hidden = false
+                                    )
+                                    asset inputs:transmittance_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Glass_color.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Transmittance or Diffuse Albedo Texture"
+                                        doc = "Texture map for either the transmittance color of the material, or the albedo color of the diffuse layer"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:use_diffuse_layer = 0 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Volume"
+                                        displayName = "Use diffuse layer"
+                                        doc = "When set, simulates a diffuse layer on top of the material"
+                                        hidden = false
+                                    )
+                                }
+                            }
+
+                            over "Details_2"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_2_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_2_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_2_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_2_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Details_1"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_1_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_1_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_1_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_1_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Plates_2"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_2_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_2_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_2_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Plates_2_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Details_3"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_3_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:emissive_mask_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_3_Emissive.e.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Emissive Mask Map"
+                                        doc = "The texture masking the emissive color"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    bool inputs:enable_emission = 1 (
+                                        customData = {
+                                            bool default = 0
+                                        }
+                                        displayGroup = "Emissive"
+                                        displayName = "Enable Emission"
+                                        doc = "Enables the emission of light from the material"
+                                        hidden = false
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_3_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_3_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Details_3_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Rims"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Rims_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Rims_Metal.m.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Rims_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Rims_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+
+                            over "Tires"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Tires_color.a.rtex.dds@ (
+                                        colorSpace = "sRGB"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Diffuse"
+                                        displayName = "Albedo Map"
+                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    int inputs:encoding = 0 (
+                                        customData = {
+                                            int default = 0
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map Encoding"
+                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
+                                        hidden = false
+                                        renderType = "normalmap_encoding"
+                                        sdrMetadata = {
+                                            string __SDR__enum_value = "octahedral"
+                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
+                                        }
+                                    )
+                                    asset inputs:metallic_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Tires_Metal.m.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Metallic Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Tires_normal_OTH_Normal.n.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Normal"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @./assets/ch1_pointinsertion/models/SK_Prop_Combine_APC_Set/textures/Tires_roughness.r.rtex.dds@ (
+                                        colorSpace = "raw"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Specular"
+                                        displayName = "Roughness Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         over "mesh_8E5D6800B7355E19" (
             references = None

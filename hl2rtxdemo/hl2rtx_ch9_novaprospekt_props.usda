@@ -6019,6 +6019,11 @@ over "RootNode"
             }
         }
 
+        over "mesh_5E999730A2B966EC" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_583ABC0D5B9C5C84" (
             references = None
@@ -8971,7 +8976,17 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_EAE90A3F72051097" (
+            references = None
+        )
+        {
+        }
 
+        over "mesh_10CBA6B799DACA3D" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_A649B9FCAEF2541A" (
             references = None
@@ -9881,6 +9896,11 @@ This parameter is unused.\r
             }
         }
 
+        over "mesh_1D74B6EFD646063B" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_F302EB068DFAEA96" (
             references = None
@@ -10777,6 +10797,11 @@ This parameter is unused.\r
             }
         }
 
+        over "mesh_9C6D2F521125D56B" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_128A52875DC52697" (
             references = None
@@ -12917,6 +12942,11 @@ This parameter is unused.\r
             }
         }
 
+        over "mesh_04E23D84F9858BAF" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_67B71DA3FC814D06" (
             references = None
@@ -13066,6 +13096,11 @@ This parameter is unused.\r
             }
         }
 
+        over "mesh_FB6D3B55F03EE1F7" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_6AC93918145DF657" (
             references = None
@@ -13867,6 +13902,33 @@ This parameter is unused.\r
             }
         }
 
+        over "mesh_6DC141BB3F4F0D58" (
+            references = None
+        )
+        {
+            def Xform "ref_e4af3860ea0a49d29ad7da9f9db87b97" (
+                prepend references = @./assets/ch11_followfreeman/models/Citadel_Test/Citadel_Lowpoly_Test_02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "World"
+                    {
+                        over "cl_body"
+                        {
+                            float3 xformOp:rotateXYZ = (0, 0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+                    }
+                }
+            }
+        }
 
         over "mesh_417746551FBCD04E" (
             references = None
@@ -15024,6 +15086,11 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_BB9CFD05B4EA69B7" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_C53C9F5D0D377C5B" (
             references = None
@@ -15666,6 +15733,11 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_7924700145B95E05" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_BF2D83E67F87B635" (
             references = None
@@ -22681,6 +22753,11 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_5AF284522B6FA7FA" (
+            references = None
+        )
+        {
+        }
 
         over "mesh_C30446146D64C728" (
             references = None
@@ -24124,6 +24201,60 @@ This parameter is unused."""
             }
         }
 
+        over "mesh_7EEBE54EBF5B0202" (
+            references = None
+        )
+        {
+            def Xform "ref_b6fee011981c40a8a9e7dc37e10ad074" (
+                prepend references = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/SM_d2_prison_05_kitchen_vents.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:scale = (1, 1, 1)
+
+                    over "World"
+                    {
+                        over "Hood"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (1, 1, 1)
+                        }
+
+                        over "Looks"
+                        {
+                            over "Hood"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vent_hood_basecolor.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vent_hood_metallic.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vent_hood_normal_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vent_hood_roughness.r.rtex.dds@
+                                }
+                            }
+
+                            over "Vents"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vents_basecolor.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vents_metallic.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vents_normal_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/ch9_novaprospekt/models/SM_d2_prison_05_kitchen_vents/textures/SM_d2_prison_05_kitchen_vents_roughness.r.rtex.dds@
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     over "Looks"

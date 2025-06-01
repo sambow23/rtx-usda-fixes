@@ -7,6 +7,11 @@ over "RootNode"
 {
     over "meshes"
     {
+        over "mesh_789597E9B5C5B950" (
+            references = None
+        )
+        {
+        }
     }
 
     over "lights"
