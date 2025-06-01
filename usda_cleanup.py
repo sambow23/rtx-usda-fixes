@@ -119,14 +119,18 @@ class USDACleanup:
             issues.append(f"Missing assets: {missing_assets}")
         
         # Case 3: Has replacement assets but ALL are missing (even without references = None)
-        elif asset_refs and not existing_assets:
+        elif asset_refs and not existing_assets and not has_references_none:
             is_broken = True
             issues.append(f"All referenced assets are missing: {missing_assets}")
         
-        # Report missing assets even if not completely broken
+        # Report missing assets even if not completely broken (for informational purposes)
         if missing_assets and existing_assets:
             issues.append(f"Some assets are missing: {missing_assets}")
             issues.append(f"Existing assets: {existing_assets}")
+        
+        # Report valid replacements (for informational purposes, but not broken)
+        if has_references_none and existing_assets:
+            issues.append(f"Valid replacement with existing assets: {existing_assets}")
         
         return is_broken, issues
 
