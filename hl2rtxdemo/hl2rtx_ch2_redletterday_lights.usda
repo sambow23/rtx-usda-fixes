@@ -268,11 +268,6 @@ over "RootNode"
         }
 
 
-        over "mesh_6203D6E8B637C008" (
-            references = None
-        )
-        {
-        }
     }
 
     over "lights"
