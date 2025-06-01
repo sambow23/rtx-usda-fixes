@@ -7,11 +7,6 @@ over "RootNode"
 {
     over "meshes"
     {
-        over "mesh_017AB46BB43F60BF" (
-            references = None
-        )
-        {
-        }
     }
 }
 

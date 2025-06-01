@@ -133,118 +133,6 @@ over "RootNode"
             }
         }
 
-        over "mesh_4593F677096FAA01" (
-            references = None
-        )
-        {
-            def Xform "ref_0fddf2b6cc5d46b8a47e50c2ea5f8854" (
-                prepend references = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/SM_Prop_Combine_Emitter.usda@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (90, 0, 0)
-                    float3 xformOp:scale = (0.01, 0.01, 0.01)
-                    double3 xformOp:translate = (0, 0, 0)
-                    float3 xformOp:translate:pivot = (0, 0, 0)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:translate:pivot", "xformOp:rotateXYZ", "xformOp:scale", "!invert!xformOp:translate:pivot"]
-
-                    over "World"
-                    {
-                        over "Looks"
-                        {
-                            over "combine_emitter"
-                            {
-                                over "Shader"
-                                {
-                                    asset inputs:diffuse_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_color.a.rtex.dds@ (
-                                        colorSpace = "sRGB"
-                                        customData = {
-                                            asset default = @@
-                                        }
-                                        displayGroup = "Diffuse"
-                                        displayName = "Albedo Map"
-                                        doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
-                                        hidden = false
-                                        renderType = "texture_2d"
-                                    )
-                                    asset inputs:emissive_mask_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_emissive.e.rtex.dds@ (
-                                        colorSpace = "sRGB"
-                                        customData = {
-                                            asset default = @@
-                                        }
-                                        displayGroup = "Emissive"
-                                        displayName = "Emissive Mask Map"
-                                        doc = "The texture masking the emissive color"
-                                        hidden = false
-                                        renderType = "texture_2d"
-                                    )
-                                    bool inputs:enable_emission = 1 (
-                                        customData = {
-                                            bool default = 0
-                                        }
-                                        displayGroup = "Emissive"
-                                        displayName = "Enable Emission"
-                                        doc = "Enables the emission of light from the material"
-                                        hidden = false
-                                    )
-                                    int inputs:encoding = 0 (
-                                        customData = {
-                                            int default = 0
-                                        }
-                                        displayGroup = "Normal"
-                                        displayName = "Normal Map Encoding"
-                                        doc = "Encoding type for the normal map.  Octahedral for 2 channel textures. tangent_space_dx for 3 channel normals, and tangent_space_ogl for 3 channel normals with an inverted (OpenGL style) G channel."
-                                        hidden = false
-                                        renderType = "normalmap_encoding"
-                                        sdrMetadata = {
-                                            string __SDR__enum_value = "octahedral"
-                                            string options = "octahedral:0|tangent_space_ogl:1|tangent_space_dx:2"
-                                        }
-                                    )
-                                    asset inputs:metallic_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_metal.m.rtex.dds@ (
-                                        colorSpace = "raw"
-                                        customData = {
-                                            asset default = @@
-                                        }
-                                        displayGroup = "Specular"
-                                        displayName = "Metallic Map"
-                                        hidden = false
-                                        renderType = "texture_2d"
-                                    )
-                                    asset inputs:normalmap_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_normal_OTH_Normal.n.rtex.dds@ (
-                                        colorSpace = "raw"
-                                        customData = {
-                                            asset default = @@
-                                        }
-                                        displayGroup = "Normal"
-                                        displayName = "Normal Map"
-                                        hidden = false
-                                        renderType = "texture_2d"
-                                    )
-                                    asset inputs:reflectionroughness_texture = @./assets/ch9a_entanglement/models/SM_Prop_Combine_Emitter/textures/combine_emitter_rough.r.rtex.dds@ (
-                                        colorSpace = "raw"
-                                        customData = {
-                                            asset default = @@
-                                        }
-                                        displayGroup = "Specular"
-                                        displayName = "Roughness Map"
-                                        hidden = false
-                                        renderType = "texture_2d"
-                                    )
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
 
         over "mesh_41FBFB959C6AB99A" (
             references = None
@@ -940,11 +828,6 @@ This parameter is unused.
             }
         }
 
-        over "mesh_9486AB8BFD919FF4" (
-            references = None
-        )
-        {
-        }
 
         over "mesh_0E36B768793B2F78" (
             references = None
@@ -1342,17 +1225,7 @@ This parameter is unused.
             }
         }
 
-        over "mesh_83287A2E6C94DC4A" (
-            references = None
-        )
-        {
-        }
 
-        over "mesh_F1793F2EA72322E5" (
-            references = None
-        )
-        {
-        }
     }
 
     over "Looks"
